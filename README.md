@@ -1,52 +1,102 @@
 <div align="center">
 
-# ⚡ Mohammed Maaz
+# ╔══════════════════════════════════╗
 
-### `AI Engineer` • `Cloud Engineer` • `Full-Stack Developer`
+# ⚡ MOHAMMED MAAZ ⚡
 
-**Building intelligent systems, scalable infrastructure & AI-powered products.**
+# ╚══════════════════════════════════╝
 
-<img src="https://komarev.com/ghpvc/?username=MohammedMaaz06&label=Profile%20Views&color=0e75b6&style=flat" />
+### `AI ENGINEER` • `CLOUD ENGINEER` • `SYSTEM BUILDER`
+
+**// BUILDING INTELLIGENT SYSTEMS FOR THE NEXT ERA OF SOFTWARE**
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=MohammedMaaz06&label=VISITORS&color=00ffff&style=for-the-badge" />
+
+<br><br>
+
+`[ AI ]` ` [ CLOUD ]` ` [ SYSTEMS ]` ` [ AUTOMATION ]` ` [ FULL-STACK ]`
 
 </div>
 
 ---
 
-## 🧠 About Me
+```text id="7a4p5w"
+┌──────────────────────────────────────────────────────────────┐
+│                     ◉ SYSTEM ONLINE                          │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│  USER       :: MOHAMMED MAAZ                                │
+│  CLASS      :: AI / CLOUD ENGINEER                           │
+│  STATUS     :: BUILDING                                      │
+│  MODE       :: AUTONOMOUS                                    │
+│                                                              │
+│  CORE       :: AI • CLOUD • DISTRIBUTED SYSTEMS              │
+│  MISSION    :: BUILD • AUTOMATE • SCALE                      │
+│                                                              │
+│  SIGNAL     :: ████████████████████ 100%                    │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
 
-```text
-🤖 AI Engineering       ☁️ Cloud & Infrastructure
-🧩 Distributed Systems  ⚙️ DevOps & Automation
-💻 Full-Stack            🚀 Product Engineering
+## `// IDENTITY`
+
+> I build **AI-powered products, cloud infrastructure, automation systems, and scalable software**.
+
+```text id="x9o4f0"
+AI ENGINEERING       ████████████████████
+CLOUD SYSTEMS        ██████████████████░░
+BACKEND ENGINEERING  ███████████████████░
+AUTOMATION           ██████████████████░░
+FULL-STACK           ███████████████████░
 ```
 
 ---
 
-## 🛠️ Tech Stack
+# `// TECHNOLOGY CORE`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=js,ts,python,go,react,nextjs,nodejs,fastapi" />
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,postgres,mongodb,redis,git,github" />
+<img src="https://skillicons.dev/icons?i=js,ts,python,go,react,nextjs,nodejs,fastapi,docker,kubernetes,linux,postgres,mongodb,redis,git,github" />
 
 </div>
 
 ---
 
-## 🚀 Featured Projects
+# `// PROJECTS`
 
-| Project                                                                                 | Description                                      | Stack                    |
-| --------------------------------------------------------------------------------------- | ------------------------------------------------ | ------------------------ |
-| ☁️ **[Compute Control Plane](https://github.com/MohammedMaaz06/compute-control-plane)** | Container compute & cloud orchestration platform | Go • Docker • PostgreSQL |
-| 🧠 **[HealOps AI](https://github.com/MohammedMaaz06/HealOps-AI)**                       | AI-powered DevOps & incident response            | Python • AI • DevOps     |
-| 🎯 **[AI Interview Coach](https://github.com/MohammedMaaz06/Ai-interview-coach)**       | Intelligent interview preparation platform       | React • Node.js • AI     |
+### ⚡ `01 / COMPUTE CONTROL PLANE`
+
+**Cloud-style container compute management platform.**
+
+`GO` `DOCKER` `POSTGRESQL` `MICROSERVICES` `REST`
+
+→ [ACCESS PROJECT](https://github.com/MohammedMaaz06/compute-control-plane)
 
 ---
 
-## 📊 GitHub Analytics
+### 🧠 `02 / HEALOPS AI`
+
+**AI-powered DevOps intelligence and automated incident response.**
+
+`PYTHON` `AI` `DEVOPS` `AUTOMATION` `APIs`
+
+→ [ACCESS PROJECT](https://github.com/MohammedMaaz06/HealOps-AI)
+
+---
+
+### 🎯 `03 / AI INTERVIEW COACH`
+
+**Intelligent interview simulation and performance analysis.**
+
+`REACT` `NODE.JS` `AI` `REST`
+
+→ [ACCESS PROJECT](https://github.com/MohammedMaaz06/Ai-interview-coach)
+
+---
+
+# `// GITHUB TELEMETRY`
 
 <div align="center">
 
@@ -58,7 +108,7 @@
 
 ---
 
-## 🔥 GitHub Streak
+# `// STREAK PROTOCOL`
 
 <div align="center">
 
@@ -68,27 +118,27 @@
 
 ---
 
-## 🏆 GitHub Trophies
+# `// ACHIEVEMENT DATABASE`
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=MohammedMaaz06&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" />
+<img src="https://github-profile-trophy.vercel.app/?username=MohammedMaaz06&theme=tokyonight&no-frame=true&no-bg=true&margin-w=5&column=7" />
 
 </div>
 
 ---
 
-## 📈 Contribution Activity
+# `// ACTIVITY MONITOR`
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MohammedMaaz06&theme=tokyo-night&hide_border=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MohammedMaaz06&theme=tokyo-night&hide_border=true&area=true" />
 
 </div>
 
 ---
 
-## 🐍 Contribution Snake
+# `// CONTRIBUTION MATRIX`
 
 <div align="center">
 
@@ -98,22 +148,42 @@
 
 ---
 
-## ⚡ Currently Building
+# `// CURRENT OPERATIONS`
 
-**AI Agents** • **Cloud Infrastructure** • **Distributed Systems** • **DevOps Automation** • **Developer Tools**
+```text id="2l4f2m"
+[✓] AI AGENTS
+[✓] CLOUD INFRASTRUCTURE
+[✓] DISTRIBUTED SYSTEMS
+[✓] DEVOPS AUTOMATION
+[✓] FULL-STACK DEVELOPMENT
+[✓] DEVELOPER TOOLS
+
+[>] NEXT TARGET
+    AUTONOMOUS + INTELLIGENT SOFTWARE SYSTEMS
+```
 
 ---
 
+# `// CONNECT`
+
 <div align="center">
 
-### `BUILD → AUTOMATE → SCALE → REPEAT`
-
 <a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+<img src="https://img.shields.io/badge/◉_LINKEDIN-00FFFF?style=for-the-badge&logo=linkedin&logoColor=black" />
 </a>
 
 <a href="https://github.com/MohammedMaaz06">
-<img src="https://img.shields.io/badge/GitHub-MohammedMaaz06-181717?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/◉_GITHUB-8A2BE2?style=for-the-badge&logo=github&logoColor=white" />
 </a>
+
+<br><br>
+
+```text
+SYSTEM STATUS :: ONLINE ●
+BUILD STATUS  :: ACTIVE
+MISSION       :: BUILD THE FUTURE
+```
+
+### `⚡ BUILD • AUTOMATE • EVOLVE ⚡`
 
 </div>
