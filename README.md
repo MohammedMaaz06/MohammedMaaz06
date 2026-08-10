@@ -1,6 +1,10 @@
-# Hi, I'm Mohammed Maaz
+<div align="center">
 
-### Developer • Builder • Lifelong Learner
+<img src="./assets/hero.svg" width="100%" alt="Mohammed Maaz">
+
+</div>
+
+---
 
 I enjoy turning ideas into useful digital experiences, exploring modern technologies, and continuously improving the way I build software.
 
