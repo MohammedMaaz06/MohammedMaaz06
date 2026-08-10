@@ -1,1 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
 
+<defs>
+
+  <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#050509"/>
+    <stop offset="50%" stop-color="#0b0718"/>
+    <stop offset="100%" stop-color="#050b14"/>
+  </linearGradient>
+
+  <linearGradient id="text" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#22d3ee"/>
+    <stop offset="50%" stop-color="#a78bfa"/>
+    <stop offset="100%" stop-color="#22d3ee"/>
+  </linearGradient>
+
+  <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#a78bfa"/>
+    <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+  </linearGradient>
+
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+  </pattern>
+
+  <radialGradient id="glowPurple">
+    <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.25"/>
+    <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+  </radialGradient>
+
+  <radialGradient id="glowBlue">
+    <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.2"/>
+    <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+  </radialGradient>
+
+</defs>
+
+<!-- Background -->
+<rect width="1200" height="420" rx="24" fill="url(#background)"/>
+
+<!-- Grid -->
+<rect width="1200" height="420" rx="24" fill="url(#grid)"/>
+
+<!-- Ambient lights -->
+<circle cx="170" cy="80" r="250" fill="url(#glowPurple)">
+  <animate
+    attributeName="cx"
+    values="170;280;170"
+    dur="8s"
+    repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1030" cy="340" r="260" fill="url(#glowBlue)">
+  <animate
+    attributeName="cy"
+    values="340;270;340"
+    dur="10s"
+    repeatCount="indefinite"/>
+</circle>
+
+<!-- Particles -->
+
+<circle cx="130" cy="120" r="2" fill="#22d3ee">
+  <animate attributeName="cy" values="120;90;120" dur="4s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.2;1;0.2" dur="4s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1080" cy="110" r="2" fill="#a78bfa">
+  <animate attributeName="cy" values="110;140;110" dur="5s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.2;1;0.2" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="180" cy="330" r="1.5" fill="#67e8f9">
+  <animate attributeName="cy" values="330;300;330" dur="6s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.1;0.8;0.1" dur="6s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1010" cy="300" r="2" fill="#a78bfa">
+  <animate attributeName="cy" values="300;330;300" dur="5s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.1;0.9;0.1" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Top label -->
+<text
+  x="600"
+  y="82"
+  text-anchor="middle"
+  fill="#94a3b8"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="14"
+  letter-spacing="6">
+  AI • CLOUD • SYSTEMS
+</text>
+
+<!-- Name -->
+<text
+  x="600"
+  y="180"
+  text-anchor="middle"
+  fill="url(#text)"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="64"
+  font-weight="700"
+  letter-spacing="3">
+
+  MOHAMMED MAAZ
+
+</text>
+
+<!-- Name glow -->
+<text
+  x="600"
+  y="180"
+  text-anchor="middle"
+  fill="none"
+  stroke="#8b5cf6"
+  stroke-opacity="0.15"
+  stroke-width="8"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="64"
+  font-weight="700"
+  letter-spacing="3">
+
+  MOHAMMED MAAZ
+
+</text>
+
+<!-- Animated line -->
+<rect
+  x="330"
+  y="215"
+  width="540"
+  height="2"
+  rx="1"
+  fill="url(#line)">
+
+  <animate
+    attributeName="width"
+    values="100;540;100"
+    dur="5s"
+    repeatCount="indefinite"/>
+
+  <animate
+    attributeName="x"
+    values="550;330;550"
+    dur="5s"
+    repeatCount="indefinite"/>
+
+</rect>
+
+<!-- Subtitle -->
+<text
+  x="600"
+  y="265"
+  text-anchor="middle"
+  fill="#e2e8f0"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="20"
+  letter-spacing="1">
+
+  AI Systems Engineer · Cloud Infrastructure · Distributed Systems
+
+</text>
+
+<!-- Description -->
+<text
+  x="600"
+  y="300"
+  text-anchor="middle"
+  fill="#64748b"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="15">
+
+  Building intelligent software and the infrastructure behind it.
+
+</text>
+
+<!-- LinkedIn -->
+<rect
+  x="430"
+  y="335"
+  width="145"
+  height="44"
+  rx="22"
+  fill="#0a66c2"
+  fill-opacity="0.15"
+  stroke="#0a66c2"
+  stroke-opacity="0.8"/>
+
+<text
+  x="502"
+  y="363"
+  text-anchor="middle"
+  fill="#60a5fa"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="14"
+  font-weight="600">
+
+  LinkedIn
+
+</text>
+
+<!-- GitHub -->
+<rect
+  x="625"
+  y="335"
+  width="145"
+  height="44"
+  rx="22"
+  fill="#ffffff"
+  fill-opacity="0.06"
+  stroke="#94a3b8"
+  stroke-opacity="0.5"/>
+
+<text
+  x="697"
+  y="363"
+  text-anchor="middle"
+  fill="#e2e8f0"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="14"
+  font-weight="600">
+
+  GitHub
+
+</text>
+
+</svg>
