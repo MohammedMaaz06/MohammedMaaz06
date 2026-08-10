@@ -1,8 +1,24 @@
-# Hi there, I'm Mohammed Maaz 👋
+<div align="center">
 
-### 🚀 Full-Stack & AI Engineer
+# ⚡ Mohammed Maaz
 
-I build **AI-powered applications, scalable backend systems, cloud infrastructure, and intelligent automation tools.**
+### `AI Engineer` • `Cloud Engineer` • `Full-Stack Developer`
+
+**Building intelligent systems, scalable infrastructure & AI-powered products.**
+
+<img src="https://komarev.com/ghpvc/?username=MohammedMaaz06&label=Profile%20Views&color=0e75b6&style=flat" />
+
+</div>
+
+---
+
+## 🧠 About Me
+
+```text
+🤖 AI Engineering       ☁️ Cloud & Infrastructure
+🧩 Distributed Systems  ⚙️ DevOps & Automation
+💻 Full-Stack            🚀 Product Engineering
+```
 
 ---
 
@@ -10,25 +26,11 @@ I build **AI-powered applications, scalable backend systems, cloud infrastructur
 
 <div align="center">
 
-### Languages
+<img src="https://skillicons.dev/icons?i=js,ts,python,go,react,nextjs,nodejs,fastapi" />
 
-<img src="https://skillicons.dev/icons?i=js,ts,python,go,sql" />
+<br/>
 
-### Frontend
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css" />
-
-### Backend
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,go" />
-
-### AI & Data
-
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,postgres,mongodb,redis" />
-
-### Cloud & DevOps
-
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,githubactions,git" />
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,postgres,mongodb,redis,git,github" />
 
 </div>
 
@@ -36,37 +38,21 @@ I build **AI-powered applications, scalable backend systems, cloud infrastructur
 
 ## 🚀 Featured Projects
 
-### ☁️ [Compute Control Plane](https://github.com/MohammedMaaz06/compute-control-plane)
-
-Production-oriented **Go microservice for container-based compute management**, lifecycle operations, state management, telemetry, and cloud-style infrastructure orchestration.
-
-**Go • Docker • PostgreSQL • REST APIs • Microservices**
-
----
-
-### 🧠 [HealOps AI](https://github.com/MohammedMaaz06/HealOps-AI)
-
-AI-powered **DevOps and incident-response platform** designed to analyze infrastructure incidents, identify root causes, and automate remediation workflows.
-
-**Python • AI • DevOps • Automation • APIs**
+| Project                                                                                 | Description                                      | Stack                    |
+| --------------------------------------------------------------------------------------- | ------------------------------------------------ | ------------------------ |
+| ☁️ **[Compute Control Plane](https://github.com/MohammedMaaz06/compute-control-plane)** | Container compute & cloud orchestration platform | Go • Docker • PostgreSQL |
+| 🧠 **[HealOps AI](https://github.com/MohammedMaaz06/HealOps-AI)**                       | AI-powered DevOps & incident response            | Python • AI • DevOps     |
+| 🎯 **[AI Interview Coach](https://github.com/MohammedMaaz06/Ai-interview-coach)**       | Intelligent interview preparation platform       | React • Node.js • AI     |
 
 ---
 
-### 🎯 [AI Interview Coach](https://github.com/MohammedMaaz06/Ai-interview-coach)
-
-AI-powered interview preparation platform that simulates interviews and provides intelligent feedback for improving technical and communication skills.
-
-**React • Node.js • AI • REST APIs**
-
----
-
-## 📊 GitHub Stats
+## 📊 GitHub Analytics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=MohammedMaaz06&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=MohammedMaaz06&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedMaaz06&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedMaaz06&layout=compact&theme=tokyonight&hide_border=true" />
 
 </div>
 
@@ -92,7 +78,7 @@ AI-powered interview preparation platform that simulates interviews and provides
 
 ---
 
-## 📈 GitHub Activity
+## 📈 Contribution Activity
 
 <div align="center">
 
@@ -112,39 +98,22 @@ AI-powered interview preparation platform that simulates interviews and provides
 
 ---
 
-## ⚡ What I'm Building
+## ⚡ Currently Building
 
-```text
-🤖 AI Agents
-☁️ Cloud Infrastructure
-🧩 Distributed Systems
-⚙️ DevOps Automation
-🚀 Full-Stack Applications
-🧠 Intelligent Developer Tools
-```
+**AI Agents** • **Cloud Infrastructure** • **Distributed Systems** • **DevOps Automation** • **Developer Tools**
 
 ---
 
-## 🤝 Let's Connect
-
 <div align="center">
 
+### `BUILD → AUTOMATE → SCALE → REPEAT`
+
 <a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
 <a href="https://github.com/MohammedMaaz06">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-MohammedMaaz06-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-
-</div>
-
----
-
-<div align="center">
-
-### 🚀 Build • Automate • Scale
-
-⭐ Feel free to explore my repositories and star anything you find useful.
 
 </div>
