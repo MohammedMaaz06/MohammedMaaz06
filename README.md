@@ -1,116 +1,175 @@
-<div align="center">
+# Hi, I'm Mohammed Maaz
 
-<img src="./assets/hero.svg" width="100%" alt="Mohammed Maaz - AI Systems Engineer">
+### Developer • Builder • Lifelong Learner
 
-</div>
+I enjoy turning ideas into useful digital experiences, exploring modern technologies, and continuously improving the way I build software.
 
-<br>
+<p align="left">
+  <a href="https://github.com/MohammedMaaz06">
+    <img src="https://img.shields.io/badge/GitHub-MohammedMaaz06-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
+  </a>
+  <a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">
+    <img src="https://img.shields.io/badge/LinkedIn-Mohammed%20Maaz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
+  </a>
+</p>
 
-<div align="center">
-
-### AI Systems · Cloud Infrastructure · Distributed Systems
-
-Building intelligent software and the infrastructure behind it.
-
-</div>
-
----
-
-## About
-
-I'm a software engineer focused on **AI systems, cloud infrastructure, distributed systems, and full-stack engineering**.
-
-I enjoy building systems that combine **intelligence, automation, and reliable infrastructure** — from AI-powered applications to containerized compute platforms and developer tools.
-
-Currently exploring **AI agents, LLM applications, RAG, cloud platforms, and infrastructure automation**.
+![Profile views](https://komarev.com/ghpvc/?username=MohammedMaaz06&label=Profile%20views&color=2563EB&style=flat-square)
 
 ---
 
-## Technology
+## About Me
 
-<div align="center">
+- Building practical projects that solve real problems
+- Learning by shipping, experimenting, and improving
+- Interested in clean interfaces and reliable systems
+- Open to collaboration and new opportunities
 
-<img src="https://skillicons.dev/icons?i=go,python,typescript,javascript,react,nextjs,nodejs,fastapi,docker,kubernetes,linux,postgres,mongodb,redis,git,githubactions" />
-
-</div>
-
----
-
-## Selected Work
-
-### ☁️ Compute Control Plane
-
-**Cloud infrastructure · Container orchestration · Distributed systems**
-
-A Go-based compute management platform for container lifecycle operations, infrastructure state, resource management, and telemetry.
-
-`Go` `Docker` `PostgreSQL` `REST` `Microservices`
-
-**[View Repository →](https://github.com/MohammedMaaz06/compute-control-plane)**
+> My approach: understand the problem, build a focused solution, and keep improving it until it feels simple to use.
 
 ---
 
-### 🧠 HealOps AI
+## What I'm Working On
 
-**AI infrastructure operations · Incident intelligence · Automation**
-
-An AI-powered DevOps platform designed to analyze infrastructure incidents, investigate potential root causes, and assist with automated remediation.
-
-`Python` `AI` `DevOps` `Automation`
-
-**[View Repository →](https://github.com/MohammedMaaz06/HealOps-AI)**
+- Exploring modern software development tools
+- Building useful and polished digital experiences
+- Growing a public portfolio of well-documented projects
+- Improving my skills through consistent practice
 
 ---
 
-### 🎯 AI Interview Coach
+## Tech Stack
 
-**LLM applications · Conversational AI · Intelligent evaluation**
+### Languages
 
-An AI-powered interview platform that simulates technical interviews and provides personalized performance analysis and feedback.
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+</p>
 
-`React` `Node.js` `AI` `REST`
+### Frameworks and Tools
 
-**[View Repository →](https://github.com/MohammedMaaz06/Ai-interview-coach)**
-
----
-
-## Engineering Focus
-
-| Area | Focus |
-|---|---|
-| **AI Engineering** | LLMs · AI Agents · RAG · Tool Calling · Automation |
-| **Cloud Engineering** | Containers · Kubernetes · Infrastructure · Observability |
-| **Distributed Systems** | Go · Microservices · APIs · Service Orchestration |
-| **Backend Engineering** | Python · Node.js · PostgreSQL · Redis |
-| **Product Engineering** | React · Next.js · React Native · Expo |
-| **DevOps** | Docker · CI/CD · Linux · GitHub Actions |
-
----
-
-## GitHub
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=MohammedMaaz06&theme=transparent&hide_border=true" />
-
-</div>
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+</p>
 
 ---
 
-## Currently Building
+## Featured Projects
 
-### AI × Infrastructure
+<!-- Replace these with your real project names and links -->
 
-I'm interested in building systems where AI can **understand environments, use tools, make decisions, and automate complex infrastructure workflows.**
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Project One</h3>
+      <p>
+        A short description of the problem this project solves
+        and the technologies used.
+      </p>
+      <a href="https://github.com/MohammedMaaz06">
+        View repository →
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Project Two</h3>
+      <p>
+        A short description of the product, your implementation,
+        and the result achieved.
+      </p>
+      <a href="https://github.com/MohammedMaaz06">
+        View repository →
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Project Three</h3>
+      <p>
+        Highlight a project that demonstrates your problem-solving,
+        design, or development skills.
+      </p>
+      <a href="https://github.com/MohammedMaaz06">
+        View repository →
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>More Coming Soon</h3>
+      <p>
+        Follow along as I build, learn, and publish more projects.
+      </p>
+      <a href="https://github.com/MohammedMaaz06?tab=repositories">
+        Browse all repositories →
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
-<div align="center">
+## GitHub Statistics
 
-### Building systems. Automating complexity.
+<p>
+  <img
+    height="165"
+    src="https://github-readme-stats.vercel.app/api?username=MohammedMaaz06&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=2563EB&icon_color=2563EB"
+    alt="Mohammed Maaz's GitHub statistics"
+  />
 
-<br>
+  <img
+    height="165"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedMaaz06&layout=compact&hide_border=true&theme=transparent&title_color=2563EB"
+    alt="Mohammed Maaz's most used languages"
+  />
+</p>
 
-[LinkedIn](https://www.linkedin.com/in/mohammed-maaz-6129b2219) · [GitHub](https://github.com/MohammedMaaz06)
+<p>
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=MohammedMaaz06&hide_border=true&theme=transparent&ring=2563EB&fire=F97316&currStreakLabel=2563EB"
+    alt="Mohammed Maaz's GitHub contribution streak"
+  />
+</p>
 
-</div>
+---
+
+## Contribution Graph
+
+<p align="center">
+  <img
+    src="https://github.com/MohammedMaaz06/MohammedMaaz06/blob/output/github-contribution-grid-snake-dark.svg"
+    alt="Contribution graph animation"
+  />
+</p>
+
+---
+
+## Let's Connect
+
+I'm always happy to connect with people who enjoy building, learning, and sharing ideas.
+
+<p>
+  <a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">
+    LinkedIn
+  </a>
+  ·
+  <a href="https://github.com/MohammedMaaz06">
+    GitHub
+  </a>
+  ·
+  <a href="https://github.com/MohammedMaaz06?tab=repositories">
+    Repositories
+  </a>
+</p>
+
+<br />
+
+<p align="center">
+  <i>Build with curiosity. Improve with consistency.</i>
+</p>
