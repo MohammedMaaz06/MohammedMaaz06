@@ -1,430 +1,150 @@
 # Hi there, I'm Mohammed Maaz 👋
 
-### 🚀 Full-Stack & AI Engineer | Cloud & DevOps | Distributed Systems
+### 🚀 Full-Stack & AI Engineer
 
-> Building intelligent software, scalable infrastructure, and AI-powered automation systems.
-
-I design and build **production-oriented applications, AI agents, cloud infrastructure, microservices, and developer automation tools**.
-
-My interests sit at the intersection of:
-
-**AI 🤖 • Cloud ☁️ • Distributed Systems 🧩 • DevOps ⚙️ • Full-Stack Engineering 💻**
+I build **AI-powered applications, scalable backend systems, cloud infrastructure, and intelligent automation tools.**
 
 ---
 
-## ⚡ About Me
+## 🛠️ Tech Stack
 
-* 🚀 Building **AI-powered products and automation systems**
-* ☁️ Designing **cloud infrastructure and distributed systems**
-* 🧠 Developing **AI agents and intelligent developer tools**
-* 🧩 Building **microservice-based architectures**
-* 🛡️ Working with **DevOps, containers, CI/CD, and infrastructure automation**
-* 📱 Creating **full-stack web and mobile applications**
-* 🔬 Exploring **LLMs, RAG, agentic workflows, and AI infrastructure**
-* 🌍 Interested in building products that can operate at **production scale**
+<div align="center">
 
----
+### Languages
 
-# 🧠 Engineering Focus
+<img src="https://skillicons.dev/icons?i=js,ts,python,go,sql" />
 
-```text
-                    ┌──────────────────────┐
-                    │      AI SYSTEMS      │
-                    │ Agents • LLMs • RAG  │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-┌─────────────────┐     ┌─────────────────────┐     ┌─────────────────┐
-│  FULL-STACK     │────▶│  DISTRIBUTED SYSTEMS│────▶│     CLOUD       │
-│ React • Next.js │     │ Microservices       │     │ Docker • K8s    │
-│ Node • FastAPI  │     │ APIs • Messaging    │     │ Linux • CI/CD   │
-└─────────────────┘     └──────────┬──────────┘     └─────────────────┘
-                                   │
-                                   ▼
-                         ┌──────────────────┐
-                         │   DATA SYSTEMS   │
-                         │ PostgreSQL       │
-                         │ MongoDB • Redis  │
-                         └──────────────────┘
-```
+### Frontend
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css" />
+
+### Backend
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,go" />
+
+### AI & Data
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,postgres,mongodb,redis" />
+
+### Cloud & DevOps
+
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,githubactions,git" />
+
+</div>
 
 ---
 
-# 🛠️ Tech Stack
+## 🚀 Featured Projects
 
-### 💻 Languages
+### ☁️ [Compute Control Plane](https://github.com/MohammedMaaz06/compute-control-plane)
 
-JavaScript • TypeScript • Python • Go • SQL
+Production-oriented **Go microservice for container-based compute management**, lifecycle operations, state management, telemetry, and cloud-style infrastructure orchestration.
 
-### 🎨 Frontend
-
-React • Next.js • React Native • Expo • Tailwind CSS • HTML • CSS
-
-### ⚙️ Backend
-
-Node.js • Express.js • FastAPI • REST APIs • Microservices
-
-### 🤖 AI & Machine Learning
-
-OpenAI • Google Gemini • LLMs • AI Agents • RAG • AI Automation • Prompt Engineering • Embeddings • Vector Search
-
-### ☁️ Cloud & Infrastructure
-
-Docker • Kubernetes • Linux • GitHub Actions • CI/CD • Containerization • Infrastructure Automation • Distributed Systems
-
-### 🗄️ Databases
-
-PostgreSQL • MongoDB • Redis • Vector Databases
-
-### 🔐 Security & Architecture
-
-JWT • OAuth • RBAC • API Security • Authentication • Authorization • Service-to-Service Communication
-
-### 🧰 Developer Tools
-
-Git • GitHub • VS Code • Postman • Docker Compose • REST • JSON
+**Go • Docker • PostgreSQL • REST APIs • Microservices**
 
 ---
 
-# 🚀 Featured Projects
+### 🧠 [HealOps AI](https://github.com/MohammedMaaz06/HealOps-AI)
 
-## ☁️ Compute Control Plane
+AI-powered **DevOps and incident-response platform** designed to analyze infrastructure incidents, identify root causes, and automate remediation workflows.
 
-### Distributed Container Infrastructure Platform
-
-A production-oriented Go microservice designed to manage container-based compute resources and provide cloud-style infrastructure orchestration.
-
-### Key Capabilities
-
-* 🐳 Container lifecycle management
-* ⚙️ Compute provisioning
-* 📊 Resource telemetry
-* 💾 Persistent infrastructure state
-* 🔄 Service orchestration
-* 🌐 REST APIs
-* 🗄️ PostgreSQL state management
-* 📈 Monitoring-ready architecture
-* 🧩 Microservice architecture
-* ☁️ Cloud-style compute abstraction
-
-**Tech:** Go • Docker • PostgreSQL • REST APIs • Microservices
+**Python • AI • DevOps • Automation • APIs**
 
 ---
 
-## 🧠 HealOps AI
+### 🎯 [AI Interview Coach](https://github.com/MohammedMaaz06/Ai-interview-coach)
 
-### AI-Powered DevOps & Incident Response Platform
+AI-powered interview preparation platform that simulates interviews and provides intelligent feedback for improving technical and communication skills.
 
-An intelligent infrastructure operations platform designed to analyze incidents, identify potential root causes, recommend solutions, and automate remediation workflows.
-
-### Key Capabilities
-
-* 🤖 AI incident analysis
-* 🔍 Root-cause analysis
-* 🚨 Incident detection
-* 🧠 AI-powered troubleshooting
-* ⚙️ Automated remediation
-* 📊 Infrastructure monitoring
-* 📝 Incident summaries
-* 🔄 Automated operational workflows
-* 🧩 AI agent architecture
-* 🔐 Secure infrastructure operations
-
-**Tech:** Python • AI • Automation • DevOps • APIs
+**React • Node.js • AI • REST APIs**
 
 ---
 
-## 🎯 AI Interview Coach
+## 📊 GitHub Stats
 
-### Intelligent Interview Preparation Platform
+<div align="center">
 
-An AI-powered interview platform that simulates realistic interviews and provides personalized feedback to help users improve technical knowledge, communication, and interview performance.
+<img src="https://github-readme-stats.vercel.app/api?username=MohammedMaaz06&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180"/>
 
-### Key Capabilities
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedMaaz06&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
 
-* 🎤 AI interview simulation
-* 🧠 Adaptive questioning
-* 💬 Conversational AI
-* 📊 Performance analysis
-* 📝 Personalized feedback
-* 🎯 Technical interview preparation
-* 📈 Skill tracking
-* 🔄 Continuous improvement
-
-**Tech:** React • Node.js • AI • REST APIs
+</div>
 
 ---
 
-# 🧩 Other Areas I'm Building
+## 🔥 GitHub Streak
 
-### 🤖 AI Engineering
+<div align="center">
 
-* AI Agents
-* LLM Applications
-* RAG Systems
-* AI Automation
-* Developer Copilots
-* Intelligent Workflows
-* AI-powered SaaS
+<img src="https://streak-stats.demolab.com?user=MohammedMaaz06&theme=tokyonight&hide_border=true" />
 
-### ☁️ Cloud Engineering
-
-* Container orchestration
-* Cloud compute platforms
-* Infrastructure automation
-* Service discovery
-* Distributed systems
-* Monitoring and observability
-
-### ⚙️ DevOps
-
-* CI/CD pipelines
-* Dockerized applications
-* Kubernetes workloads
-* Infrastructure automation
-* Logging
-* Monitoring
-* Deployment automation
-
-### 💻 Full-Stack Development
-
-* SaaS platforms
-* Admin dashboards
-* Real-time applications
-* REST APIs
-* Mobile applications
-* AI-integrated applications
+</div>
 
 ---
 
-# 🏗️ Architecture I'm Interested In
+## 🏆 GitHub Trophies
 
-```text
-                         USERS
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │   Frontend   │
-                    │ React/Next   │
-                    └──────┬───────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │ API Gateway  │
-                    └──────┬───────┘
-                           │
-             ┌─────────────┼─────────────┐
-             ▼             ▼             ▼
-       ┌──────────┐  ┌──────────┐  ┌──────────┐
-       │ AI Agent │  │ Services │  │ Auth     │
-       └────┬─────┘  └────┬─────┘  └──────────┘
-            │             │
-            └──────┬──────┘
-                   ▼
-          ┌──────────────────┐
-          │ Data & Messaging │
-          │ PostgreSQL       │
-          │ Redis            │
-          │ Vector DB        │
-          └────────┬─────────┘
-                   │
-                   ▼
-          ┌──────────────────┐
-          │ Cloud Runtime    │
-          │ Docker / K8s     │
-          └──────────────────┘
-```
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=MohammedMaaz06&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" />
+
+</div>
 
 ---
 
-# 🚀 What I'm Working On
+## 📈 GitHub Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MohammedMaaz06&theme=tokyo-night&hide_border=true" />
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/MohammedMaaz06/MohammedMaaz06/output/github-contribution-grid-snake-dark.svg" />
+
+</div>
+
+---
+
+## ⚡ What I'm Building
 
 ```text
 🤖 AI Agents
-       ↓
-🧠 Intelligent Automation
-       ↓
 ☁️ Cloud Infrastructure
-       ↓
 🧩 Distributed Systems
-       ↓
 ⚙️ DevOps Automation
-       ↓
-🚀 Production-Ready Products
-```
-
-Current focus:
-
-* 🤖 AI-powered automation systems
-* 🧠 Agentic AI applications
-* ☁️ Cloud infrastructure
-* 🧩 Distributed systems
-* 🛡️ DevOps automation
-* 🔄 CI/CD systems
-* 📊 Observability and monitoring
-* 📱 Full-stack applications
-* 🏗️ Developer infrastructure
-* 🔬 AI infrastructure
-
----
-
-# 📊 GitHub Analytics
-
-### 📈 GitHub Stats
-
-<!-- Add your GitHub stats card here -->
-
-### 🔥 GitHub Streak
-
-<!-- Add your GitHub streak card here -->
-
-### 🐍 Contribution Activity
-
-<!-- Add contribution snake animation here -->
-
----
-
-# 🎬 Project Showcase
-
-I believe great engineering should be **demonstrated, not only described**.
-
-For major projects, I aim to showcase:
-
-```text
-Idea
-  ↓
-Architecture
-  ↓
-Implementation
-  ↓
-Live Demo
-  ↓
-Monitoring
-  ↓
-Performance
-  ↓
-Production
-```
-
-Recommended project README content:
-
-* 🎥 Product demo GIF
-* 🏗️ Architecture diagram
-* 📸 Dashboard screenshots
-* ⚡ Performance benchmarks
-* 🧪 Testing strategy
-* 🔐 Security architecture
-* ☁️ Deployment architecture
-* 📊 Monitoring dashboard
-* 🚀 Deployment instructions
-
----
-
-# 🌐 Engineering Philosophy
-
-> **Build systems that are scalable, observable, secure, and easy to maintain.**
-
-I focus on more than simply making applications work.
-
-I care about:
-
-* 🏗️ Clean architecture
-* ⚡ Performance
-* 🔐 Security
-* 📈 Scalability
-* 🧪 Testing
-* 📊 Observability
-* 🔄 Automation
-* 🧩 Maintainability
-* 🚀 Production readiness
-
----
-
-# 📚 Currently Exploring
-
-* Agentic AI
-* Large Language Models
-* Retrieval-Augmented Generation
-* AI infrastructure
-* Distributed systems
-* Kubernetes
-* Cloud architecture
-* Infrastructure as Code
-* Observability
-* Event-driven architectures
-* High-performance backend systems
-* AI-powered developer tooling
-
----
-
-# 🎯 Long-Term Vision
-
-My goal is to build **intelligent infrastructure and software systems** that combine:
-
-```text
-        AI
-        +
-      CLOUD
-        +
- DISTRIBUTED SYSTEMS
-        +
-    AUTOMATION
-        =
- INTELLIGENT SOFTWARE
-```
-
-I want to build systems that don't just execute instructions — they can **understand, analyze, optimize, and automate complex workflows**.
-
----
-
-# 📈 GitHub Activity
-
-<!-- GitHub contribution graph -->
-
-```text
-Building → Learning → Experimenting → Shipping → Improving
-      ↑                                      ↓
-      └──────────── Continuous Learning ─────┘
+🚀 Full-Stack Applications
+🧠 Intelligent Developer Tools
 ```
 
 ---
 
-# 🤝 Let's Connect
+## 🤝 Let's Connect
 
-I'm interested in:
+<div align="center">
 
-**AI • Cloud Infrastructure • Distributed Systems • DevOps • Full-Stack Engineering • AI Agents • Developer Tools**
+<a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
-If you're building something ambitious, I'd love to connect and collaborate.
+<a href="https://github.com/MohammedMaaz06">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
-### 📬 LinkedIn
-
-Mohammed Maaz
-
-### 💻 GitHub
-
-@MohammedMaaz06
-
----
-
-# ⭐ Support My Work
-
-If you find any of my projects useful or interesting:
-
-⭐ Star the repository
-🍴 Fork the project
-🐛 Report issues
-💡 Suggest improvements
-🤝 Contribute
-
-Every contribution, idea, and interaction helps me build better systems.
+</div>
 
 ---
 
 <div align="center">
 
-### 🚀 Build. Automate. Scale. Repeat.
+### 🚀 Build • Automate • Scale
 
-**AI • Cloud • Distributed Systems • Full-Stack**
+⭐ Feel free to explore my repositories and star anything you find useful.
 
 </div>
