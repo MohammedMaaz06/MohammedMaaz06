@@ -1,53 +1,131 @@
 <div align="center">
 
+<img src="./assets/hero.gif" width="100%" />
+
+<br/>
+
 # Mohammed Maaz
 
 ### AI Systems Engineer · Cloud Infrastructure · Distributed Systems
 
-**Building intelligent systems, developer infrastructure, and production-grade software.**
+Building **AI systems and the infrastructure behind them.**
 
-<br>
+<br/>
 
 <a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0969DA?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-&nbsp;
+
 <a href="https://github.com/MohammedMaaz06">
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-MohammedMaaz06-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+
+### AI × INFRASTRUCTURE × SYSTEMS
+
+`LLMs` · `AI Agents` · `Go` · `Python` · `Docker` · `Kubernetes` · `Distributed Systems`
 
 </div>
 
 ---
 
-## `01` · Engineering Profile
+# About
 
-I build systems across the intersection of **AI, backend engineering, and cloud infrastructure**.
+I build software at the intersection of **artificial intelligence and infrastructure**.
 
-My work focuses on turning complex workflows into reliable software — from **LLM-powered applications and autonomous agents** to **container orchestration, infrastructure automation, and distributed backend services**.
+My projects range from AI-powered applications and autonomous workflows to container orchestration, backend platforms, and cloud-style infrastructure.
+
+I'm particularly interested in systems where software can **reason, interact with tools, operate infrastructure, and automate complex workflows.**
+
+---
+
+# ⚡ Engineering Domains
+
+<div align="center">
+
+<table>
+<tr>
+
+<td width="25%" align="center">
+
+### AI
+
+LLMs  
+Agents  
+RAG  
+Tool Calling  
+Automation
+
+</td>
+
+<td width="25%" align="center">
+
+### Systems
+
+Go  
+Microservices  
+APIs  
+Distributed Systems  
+Concurrency
+
+</td>
+
+<td width="25%" align="center">
+
+### Cloud
+
+Containers  
+Kubernetes  
+Infrastructure  
+Telemetry  
+Observability
+
+</td>
+
+<td width="25%" align="center">
+
+### Product
+
+React  
+Next.js  
+Node.js  
+Mobile  
+AI Products
+
+</td>
+
+</tr>
+</table>
+
+</div>
+
+---
+
+# 🧠 Selected Systems
+
+## Compute Control Plane
+
+<div align="center">
+
+<img src="./assets/compute-control-plane.gif" width="90%" />
+
+</div>
+
+### Cloud-style compute infrastructure
+
+A Go-based compute management platform for **container lifecycle operations, infrastructure state, resource management, and telemetry**.
 
 ```text
-Primary
-├── AI Engineering
-│   ├── LLM Applications
-│   ├── AI Agents
-│   ├── RAG
-│   └── Intelligent Automation
-│
-├── Cloud & Infrastructure
-│   ├── Containers
-│   ├── Kubernetes
-│   ├── Infrastructure Automation
-│   └── Observability
-│
-├── Distributed Systems
-│   ├── Go Services
-│   ├── Microservices
-│   ├── REST APIs
-│   └── Service Communication
-│
-└── Product Engineering
-    ├── React / Next.js
-    ├── Node.js
-    ├── React Native
-    └── AI Products
+Core
+Go
+Docker
+PostgreSQL
+REST APIs
+Microservices
