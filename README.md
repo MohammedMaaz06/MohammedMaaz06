@@ -86,11 +86,11 @@ An interactive interview platform that simulates technical interviews and provid
 
 </div>
 
-## 📈 Contribution Activity
+## 🐍 Contribution Activity
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MohammedMaaz06&theme=github-compact&hide_border=true&area=true" />
+<img src="https://raw.githubusercontent.com/MohammedMaaz06/MohammedMaaz06/output/github-contribution-grid-snake-dark.svg" />
 
 </div>
 ---
