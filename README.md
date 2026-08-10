@@ -4,7 +4,7 @@
 
 ### AI Engineer · Cloud & Distributed Systems · Full-Stack
 
-Building **AI-powered products, scalable infrastructure, and intelligent automation systems.**
+Building **intelligent software, scalable infrastructure, and production-ready systems.**
 
 [LinkedIn](https://www.linkedin.com/in/mohammed-maaz-6129b2219) · [GitHub](https://github.com/MohammedMaaz06)
 
@@ -14,11 +14,11 @@ Building **AI-powered products, scalable infrastructure, and intelligent automat
 
 ## About
 
-I'm a software engineer focused on **AI engineering, cloud infrastructure, distributed systems, and full-stack product development**.
+Software engineer focused on **AI systems, cloud infrastructure, distributed systems, and full-stack engineering**.
 
-I enjoy turning complex problems into reliable, scalable software — from AI-powered applications to container orchestration and developer infrastructure.
+I build systems that combine **intelligent automation with reliable backend infrastructure** — from AI-powered applications and developer tools to container orchestration and cloud-style platforms.
 
-**Currently exploring:** AI Agents · LLM Applications · Cloud Infrastructure · Distributed Systems · DevOps Automation
+**Current interests:** AI Agents · LLM Applications · RAG · Cloud Infrastructure · Distributed Systems · DevOps · Developer Tools
 
 ---
 
@@ -28,9 +28,9 @@ I enjoy turning complex problems into reliable, scalable software — from AI-po
 
 <img src="https://skillicons.dev/icons?i=js,ts,python,go,react,nextjs,nodejs,fastapi" />
 
-<br/>
+<br />
 
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,postgres,mongodb,redis,git,github" />
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,postgres,mongodb,redis,git,githubactions" />
 
 </div>
 
@@ -38,89 +38,82 @@ I enjoy turning complex problems into reliable, scalable software — from AI-po
 
 ## Selected Work
 
-### [Compute Control Plane](https://github.com/MohammedMaaz06/compute-control-plane)
+### ☁️ [Compute Control Plane](https://github.com/MohammedMaaz06/compute-control-plane)
 
-**Cloud infrastructure & container orchestration**
+**Cloud infrastructure · Container orchestration · Distributed backend systems**
 
-A Go-based compute management service for container lifecycle operations, infrastructure state, telemetry, and cloud-style resource orchestration.
+Go-based compute management platform for container lifecycle operations, infrastructure state, telemetry, and cloud-style resource orchestration.
 
-`Go` `Docker` `PostgreSQL` `Microservices`
-
----
-
-### [HealOps AI](https://github.com/MohammedMaaz06/HealOps-AI)
-
-**AI-powered infrastructure operations**
-
-An intelligent DevOps platform designed to analyze incidents, identify potential root causes, and automate remediation workflows.
-
-`Python` `AI` `DevOps` `Automation`
+`Go` `Docker` `PostgreSQL` `REST` `Microservices`
 
 ---
 
-### [AI Interview Coach](https://github.com/MohammedMaaz06/Ai-interview-coach)
+### 🧠 [HealOps AI](https://github.com/MohammedMaaz06/HealOps-AI)
 
-**AI-powered interview intelligence**
+**AI infrastructure operations · Incident intelligence · Automated remediation**
 
-An interactive interview platform that simulates technical interviews and provides personalized performance analysis and feedback.
+AI-powered DevOps platform designed to analyze infrastructure incidents, identify potential root causes, and automate operational remediation workflows.
 
-`React` `Node.js` `AI`
+`Python` `AI` `DevOps` `Automation` `APIs`
+
+---
+
+### 🎯 [AI Interview Coach](https://github.com/MohammedMaaz06/Ai-interview-coach)
+
+**LLM applications · Conversational AI · Intelligent evaluation**
+
+AI-powered interview platform that simulates technical interviews and provides personalized analysis, feedback, and performance insights.
+
+`React` `Node.js` `AI` `REST`
+
+---
+
+## Engineering Focus
+
+| Area | Focus |
+|---|---|
+| **AI Engineering** | LLMs · AI Agents · RAG · AI Automation |
+| **Cloud Engineering** | Containers · Kubernetes · Infrastructure · Observability |
+| **Distributed Systems** | Go · Microservices · APIs · Service Architecture |
+| **Backend Engineering** | Python · Node.js · PostgreSQL · Redis |
+| **Product Engineering** | React · Next.js · React Native · Expo |
+| **DevOps** | Docker · CI/CD · Linux · GitHub Actions |
 
 ---
 
 ## GitHub
 
+### 🔥 GitHub Streak
+
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=MohammedMaaz06&show_icons=true&hide_border=true&theme=transparent&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff&bg_color=00000000" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedMaaz06&layout=compact&hide_border=true&theme=transparent&title_color=58a6ff&text_color=8b949e&bg_color=00000000" />
+<img src="https://streak-stats.demolab.com?user=MohammedMaaz06&theme=transparent&hide_border=true" />
 
 </div>
 
-### GitHub Streak
+### 📊 GitHub Statistics
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=MohammedMaaz06&theme=transparent&hide_border=true&stroke=58a6ff&ring=58a6ff&fire=ff6b35&currStreakLabel=58a6ff" />
+<img src="https://github-readme-stats.vercel.app/api?username=MohammedMaaz06&show_icons=true&hide_border=true&theme=transparent&count_private=true" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedMaaz06&layout=compact&hide_border=true&theme=transparent" />
 
 </div>
 
-## Contribution Activity
+### 🏆 GitHub Trophies
 
 <div align="center">
 
-<img
-  src="https://gh-heat.anishroy.com/api/MohammedMaaz06/svg?theme=green&darkMode=true&showMonthLabels=true&showDayLabels=false&showLegend=true"
-  alt="GitHub Contribution Calendar"
-  width="900"
-/>
-
-</div>
-
-## GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=MohammedMaaz06&theme=flat&no-frame=true&no-bg=true&margin-w=8&column=7" />
+<img src="https://github-profile-trophy.vercel.app/?username=MohammedMaaz06&theme=flat&no-frame=true&no-bg=true&margin-w=6&column=7" />
 
 </div>
 
 ---
 
-## Focus
+## Currently Building
 
-**AI Engineering**
-Agentic systems, LLM applications, RAG, intelligent automation
-
-**Cloud Engineering**
-Containers, orchestration, infrastructure, observability
-
-**Backend & Distributed Systems**
-Go, Python, microservices, APIs, scalable architectures
-
-**Product Engineering**
-React, Next.js, Node.js, mobile and AI-powered applications
+**AI Agents** · **Intelligent Automation** · **Cloud Infrastructure** · **Developer Tools** · **Distributed Systems**
 
 ---
 
@@ -128,8 +121,8 @@ React, Next.js, Node.js, mobile and AI-powered applications
 
 ### Building at the intersection of AI and infrastructure.
 
-<br>
+<br />
 
-<img src="https://komarev.com/ghpvc/?username=MohammedMaaz06&label=Profile%20Views&color=58a6ff&style=flat-square" />
+[LinkedIn](https://www.linkedin.com/in/mohammed-maaz-6129b2219) · [GitHub](https://github.com/MohammedMaaz06)
 
 </div>
