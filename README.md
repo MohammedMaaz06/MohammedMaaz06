@@ -2,89 +2,75 @@
 
 # Mohammed Maaz
 
-### AI Systems Engineer · Cloud · Distributed Systems
+### AI Engineer · Cloud · Distributed Systems
 
-Building **AI-powered software, cloud infrastructure, and developer systems.**
+**Building intelligent systems and the infrastructure behind them.**
 
-[LinkedIn](https://www.linkedin.com/in/mohammed-maaz-6129b2219) · [GitHub](https://github.com/MohammedMaaz06)
+<br/>
+
+<a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://github.com/MohammedMaaz06">
+  <img src="https://img.shields.io/badge/GitHub-MohammedMaaz06-24292F?style=flat-square&logo=github&logoColor=white" />
+</a>
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+
+`AI SYSTEMS` &nbsp; `CLOUD INFRASTRUCTURE` &nbsp; `DISTRIBUTED SYSTEMS` &nbsp; `FULL-STACK`
 
 </div>
 
 ---
 
-## What I Build
+## About
 
-I work across the stack, with a focus on **AI systems, backend infrastructure, and distributed software**.
+I build software at the intersection of **AI and infrastructure**.
 
-My work combines:
+My work ranges from **AI-powered applications and autonomous workflows** to **containerized compute platforms, backend services, and developer infrastructure**.
 
-**AI Engineering** · **Cloud Infrastructure** · **Backend Systems** · **DevOps** · **Full-Stack Development**
+Currently exploring:
 
-Currently exploring **AI agents, LLM applications, RAG, cloud platforms, and intelligent automation.**
+**AI Agents · LLM Applications · RAG · Cloud Platforms · Distributed Systems · DevOps Automation**
 
 ---
 
 ## Selected Work
 
-<table>
-<tr>
-<td width="50%">
+<div align="center">
+
+| | Project | What it does |
+|:---:|:---|:---|
+| ☁️ | **[Compute Control Plane](https://github.com/MohammedMaaz06/compute-control-plane)** | Cloud-style container compute management |
+| 🧠 | **[HealOps AI](https://github.com/MohammedMaaz06/HealOps-AI)** | AI-powered incident intelligence & remediation |
+| 🎯 | **[AI Interview Coach](https://github.com/MohammedMaaz06/Ai-interview-coach)** | AI-driven interview simulation & evaluation |
+
+</div>
 
 ### ☁️ Compute Control Plane
 
-**Cloud infrastructure for containerized compute.**
+A Go-based infrastructure service for **container lifecycle management, compute orchestration, persistent state, and telemetry**.
 
-A Go-based platform for managing compute resources, container lifecycles, infrastructure state, and telemetry.
-
-**Go · Docker · PostgreSQL**
-
-[View Project →](https://github.com/MohammedMaaz06/compute-control-plane)
-
-</td>
-
-<td width="50%">
+`Go` `Docker` `PostgreSQL` `REST` `Microservices`
 
 ### 🧠 HealOps AI
 
-**AI-powered infrastructure operations.**
+An AI-powered operations platform that **analyzes infrastructure incidents, investigates root causes, and assists with automated remediation**.
 
-Analyzes incidents, investigates potential root causes, and enables automated remediation workflows.
-
-**Python · AI · DevOps**
-
-[View Project →](https://github.com/MohammedMaaz06/HealOps-AI)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
+`Python` `AI` `DevOps` `Automation`
 
 ### 🎯 AI Interview Coach
 
-**AI-powered interview intelligence.**
+An intelligent interview platform combining **conversational AI, technical evaluation, and personalized performance feedback**.
 
-Simulates technical interviews and generates personalized performance feedback.
-
-**React · Node.js · AI**
-
-[View Project →](https://github.com/MohammedMaaz06/Ai-interview-coach)
-
-</td>
-
-<td width="50%">
-
-### 🚀 More Projects
-
-Building and experimenting with:
-
-**AI Agents · Cloud Platforms · Developer Tools · Automation**
-
-More projects are continuously being added.
-
-</td>
-</tr>
-</table>
+`React` `Node.js` `AI`
 
 ---
 
@@ -92,7 +78,22 @@ More projects are continuously being added.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=go,python,typescript,javascript,react,nextjs,nodejs,fastapi,docker,kubernetes,linux,postgres,mongodb,redis,git,githubactions" />
+<img src="https://skillicons.dev/icons?i=go,python,typescript,javascript,react,nextjs,nodejs,fastapi,docker,kubernetes,postgres,mongodb,redis,linux,git,githubactions" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+**AI**  
+LLMs · AI Agents · RAG · AI Automation · OpenAI · Gemini
+
+**Systems**  
+Go · Python · Microservices · APIs · Containers · Distributed Systems
+
+**Product**  
+React · Next.js · Node.js · React Native · Expo
 
 </div>
 
@@ -108,23 +109,55 @@ More projects are continuously being added.
 
 ---
 
-## Focus
+## Currently Exploring
 
-```text
-AI
-├── LLM Applications
-├── AI Agents
-├── RAG
-└── Intelligent Automation
+<table>
+<tr>
+<td width="33%" align="center">
 
-Cloud
-├── Containers
-├── Kubernetes
-├── Infrastructure
-└── Observability
+### 🤖 AI
 
-Systems
-├── Go
-├── Microservices
-├── Distributed Systems
-└── Backend Architecture
+Agents  
+LLM Applications  
+RAG  
+Automation
+
+</td>
+
+<td width="33%" align="center">
+
+### ☁️ Cloud
+
+Infrastructure  
+Containers  
+Kubernetes  
+Observability
+
+</td>
+
+<td width="33%" align="center">
+
+### 🧩 Systems
+
+Go  
+Microservices  
+Distributed Systems  
+Backend
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+### Building at the intersection of AI and infrastructure.
+
+<br/>
+
+<a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">LinkedIn</a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://github.com/MohammedMaaz06">GitHub</a>
+
+</div>
