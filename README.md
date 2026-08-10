@@ -86,14 +86,17 @@ An interactive interview platform that simulates technical interviews and provid
 
 </div>
 
-## 🐍 Contribution Activity
+## Contribution Activity
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/MohammedMaaz06/MohammedMaaz06/output/github-contribution-grid-snake-dark.svg" />
+<img
+  src="https://gh-heat.anishroy.com/api/MohammedMaaz06/svg?theme=green&darkMode=true&showMonthLabels=true&showDayLabels=false&showLegend=true"
+  alt="GitHub Contribution Calendar"
+  width="900"
+/>
 
 </div>
----
 
 ## GitHub Trophies
 
