@@ -1,10 +1,6 @@
 <div align="center">
-
-<img src="./assets/hero.svg" width="100%" alt="Mohammed Maaz">
-
+  <img src="./assets/hero.svg" width="100%" alt="Mohammed Maaz — Developer, Builder, and Lifelong Learner" />
 </div>
-
----
 
 I enjoy turning ideas into useful digital experiences, exploring modern technologies, and continuously improving the way I build software.
 
@@ -17,7 +13,11 @@ I enjoy turning ideas into useful digital experiences, exploring modern technolo
   </a>
 </p>
 
-![Profile views](https://komarev.com/ghpvc/?username=MohammedMaaz06&label=Profile%20views&color=2563EB&style=flat-square)
+<p>
+  <img src="https://img.shields.io/github/followers/MohammedMaaz06?style=for-the-badge&logo=github&label=Followers" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/stars/MohammedMaaz06?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/last-commit/MohammedMaaz06/MohammedMaaz06?style=for-the-badge&logo=github&label=Last%20updated" alt="Last profile update" />
+</p>
 
 ---
 
@@ -68,42 +68,40 @@ I enjoy turning ideas into useful digital experiences, exploring modern technolo
 
 ## Featured Projects
 
-<!-- Replace these with your real project names and links -->
-
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>Project One</h3>
       <p>
-        A short description of the problem this project solves
-        and the technologies used.
+        Add a short description of your first project here.
       </p>
       <a href="https://github.com/MohammedMaaz06">
         View repository →
       </a>
     </td>
+
     <td width="50%" valign="top">
       <h3>Project Two</h3>
       <p>
-        A short description of the product, your implementation,
-        and the result achieved.
+        Add a short description of your second project here.
       </p>
       <a href="https://github.com/MohammedMaaz06">
         View repository →
       </a>
     </td>
   </tr>
+
   <tr>
     <td width="50%" valign="top">
       <h3>Project Three</h3>
       <p>
-        Highlight a project that demonstrates your problem-solving,
-        design, or development skills.
+        Add a short description of your third project here.
       </p>
       <a href="https://github.com/MohammedMaaz06">
         View repository →
       </a>
     </td>
+
     <td width="50%" valign="top">
       <h3>More Coming Soon</h3>
       <p>
@@ -118,39 +116,26 @@ I enjoy turning ideas into useful digital experiences, exploring modern technolo
 
 ---
 
-## GitHub Statistics
+## GitHub Activity
+
+Explore my latest repositories, commits, and contributions directly on GitHub:
 
 <p>
-  <img
-    height="165"
-    src="https://github-readme-stats.vercel.app/api?username=MohammedMaaz06&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=2563EB&icon_color=2563EB"
-    alt="Mohammed Maaz's GitHub statistics"
-  />
+  <a href="https://github.com/MohammedMaaz06?tab=repositories">
+    <img src="https://img.shields.io/badge/View%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="View repositories" />
+  </a>
 
-  <img
-    height="165"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedMaaz06&layout=compact&hide_border=true&theme=transparent&title_color=2563EB"
-    alt="Mohammed Maaz's most used languages"
-  />
-</p>
-
-<p>
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com/?user=MohammedMaaz06&hide_border=true&theme=transparent&ring=2563EB&fire=F97316&currStreakLabel=2563EB"
-    alt="Mohammed Maaz's GitHub contribution streak"
-  />
+  <a href="https://github.com/MohammedMaaz06?tab=overview">
+    <img src="https://img.shields.io/badge/View%20Activity-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub activity" />
+  </a>
 </p>
 
 ---
 
 ## Contribution Graph
 
-<p align="center">
-  <img
-    src="https://github.com/MohammedMaaz06/MohammedMaaz06/blob/output/github-contribution-grid-snake-dark.svg"
-    alt="Contribution graph animation"
-  />
-</p>
+See my live contribution activity on my
+<a href="https://github.com/MohammedMaaz06">GitHub profile</a>.
 
 ---
 
