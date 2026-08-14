@@ -1,164 +1,266 @@
 <div align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Mohammed Maaz — Developer, Builder, and Lifelong Learner" />
+
+# MOHAMMED MAAZ
+
+### `Developer` · `Builder` · `AI & Cloud Engineer`
+
+**Building intelligent systems, scalable software, and practical solutions to real-world problems.**
+
+<br />
+
+[![GitHub](https://img.shields.io/badge/GitHub-MohammedMaaz06-000000?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/MohammedMaaz06)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohammed%20Maaz-000000?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/mohammed-maaz-6129b2219)
+
+<br />
+
+![Followers](https://img.shields.io/github/followers/MohammedMaaz06?style=flat-square\&label=Followers\&color=555555)
+![Stars](https://img.shields.io/github/stars/MohammedMaaz06?style=flat-square\&label=Stars\&color=555555)
+![Profile Views](https://komarev.com/ghpvc/?username=MohammedMaaz06\&style=flat-square\&color=555555)
+
 </div>
 
-I enjoy turning ideas into useful digital experiences, exploring modern technologies, and continuously improving the way I build software.
+---
 
-<p align="left">
-  <a href="https://github.com/MohammedMaaz06">
-    <img src="https://img.shields.io/badge/GitHub-MohammedMaaz06-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
-  </a>
-  <a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">
-    <img src="https://img.shields.io/badge/LinkedIn-Mohammed%20Maaz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
-  </a>
-</p>
+## `01` — WHO AM I?
 
-<p>
-  <img src="https://img.shields.io/github/followers/MohammedMaaz06?style=for-the-badge&logo=github&label=Followers" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/MohammedMaaz06?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" />
-  <img src="https://img.shields.io/github/last-commit/MohammedMaaz06/MohammedMaaz06?style=for-the-badge&logo=github&label=Last%20updated" alt="Last profile update" />
-</p>
+I enjoy turning complex ideas into **useful, reliable, and intelligent software**.
+
+My work sits at the intersection of:
+
+```text
+AI
+├── AI Agents
+├── Machine Learning
+├── Deep Learning
+└── Automation
+
+Cloud
+├── Containers
+├── Microservices
+├── Infrastructure
+└── Distributed Systems
+
+Software
+├── Backend Engineering
+├── Full-Stack Development
+├── APIs
+└── System Design
+```
+
+> **Think deeply. Build simply. Ship consistently.**
 
 ---
 
-## About Me
+## `02` — CURRENTLY BUILDING
 
-- Building practical projects that solve real problems
-- Learning by shipping, experimenting, and improving
-- Interested in clean interfaces and reliable systems
-- Open to collaboration and new opportunities
-
-> My approach: understand the problem, build a focused solution, and keep improving it until it feels simple to use.
+```text
+╭──────────────────────────────────────────────────────────────╮
+│                                                              │
+│   ◉ AI SYSTEMS                                               │
+│     Building intelligent agents and automation workflows     │
+│                                                              │
+│   ◉ CLOUD INFRASTRUCTURE                                     │
+│     Exploring distributed systems and container platforms    │
+│                                                              │
+│   ◉ REAL-WORLD PRODUCTS                                      │
+│     Turning public problems into practical software          │
+│                                                              │
+│   ◉ ENGINEERING                                               │
+│     Learning by building, breaking, fixing, and shipping      │
+│                                                              │
+╰──────────────────────────────────────────────────────────────╯
+```
 
 ---
 
-## What I'm Working On
-
-- Exploring modern software development tools
-- Building useful and polished digital experiences
-- Growing a public portfolio of well-documented projects
-- Improving my skills through consistent practice
-
----
-
-## Tech Stack
+## `03` — TECH STACK
 
 ### Languages
 
 <p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+<img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=3776AB" />
+<img src="https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+<img src="https://img.shields.io/badge/TypeScript-111111?style=for-the-badge&logo=typescript&logoColor=3178C6" />
+<img src="https://img.shields.io/badge/Go-111111?style=for-the-badge&logo=go&logoColor=00ADD8" />
+<img src="https://img.shields.io/badge/SQL-111111?style=for-the-badge&logo=postgresql&logoColor=4169E1" />
 </p>
 
-### Frameworks and Tools
+### AI / Machine Learning
 
 <p>
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+<img src="https://img.shields.io/badge/Machine%20Learning-111111?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Deep%20Learning-111111?style=for-the-badge" />
+<img src="https://img.shields.io/badge/AI%20Agents-111111?style=for-the-badge" />
+<img src="https://img.shields.io/badge/LangChain-111111?style=for-the-badge&logo=langchain&logoColor=1C3C3C" />
+<img src="https://img.shields.io/badge/LangGraph-111111?style=for-the-badge" />
+<img src="https://img.shields.io/badge/OpenAI-111111?style=for-the-badge&logo=openai&logoColor=white" />
+</p>
+
+### Backend / Frontend
+
+<p>
+<img src="https://img.shields.io/badge/FastAPI-111111?style=for-the-badge&logo=fastapi&logoColor=009688" />
+<img src="https://img.shields.io/badge/Node.js-111111?style=for-the-badge&logo=node.js&logoColor=339933" />
+<img src="https://img.shields.io/badge/Express.js-111111?style=for-the-badge&logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=next.js&logoColor=white" />
+</p>
+
+### Cloud / Infrastructure
+
+<p>
+<img src="https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=2496ED" />
+<img src="https://img.shields.io/badge/Kubernetes-111111?style=for-the-badge&logo=kubernetes&logoColor=326CE5" />
+<img src="https://img.shields.io/badge/Linux-111111?style=for-the-badge&logo=linux&logoColor=FCC624" />
+<img src="https://img.shields.io/badge/GitHub%20Actions-111111?style=for-the-badge&logo=github-actions&logoColor=2088FF" />
+</p>
+
+### Databases & Tools
+
+<p>
+<img src="https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=4169E1" />
+<img src="https://img.shields.io/badge/MongoDB-111111?style=for-the-badge&logo=mongodb&logoColor=47A248" />
+<img src="https://img.shields.io/badge/Redis-111111?style=for-the-badge&logo=redis&logoColor=DC382D" />
+<img src="https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=F05032" />
+<img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
 ---
 
-## Featured Projects
+## `04` — SELECTED BUILDS
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Project One</h3>
-      <p>
-        Add a short description of your first project here.
-      </p>
-      <a href="https://github.com/MohammedMaaz06">
-        View repository →
-      </a>
-    </td>
+<tr>
+<td width="50%" valign="top">
 
-    <td width="50%" valign="top">
-      <h3>Project Two</h3>
-      <p>
-        Add a short description of your second project here.
-      </p>
-      <a href="https://github.com/MohammedMaaz06">
-        View repository →
-      </a>
-    </td>
-  </tr>
+### ⚡ Compute Control Plane
 
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Project Three</h3>
-      <p>
-        Add a short description of your third project here.
-      </p>
-      <a href="https://github.com/MohammedMaaz06">
-        View repository →
-      </a>
-    </td>
+A Go-based compute orchestration platform for managing container workloads, lifecycle operations, persistence, and telemetry.
 
-    <td width="50%" valign="top">
-      <h3>More Coming Soon</h3>
-      <p>
-        Follow along as I build, learn, and publish more projects.
-      </p>
-      <a href="https://github.com/MohammedMaaz06?tab=repositories">
-        Browse all repositories →
-      </a>
-    </td>
-  </tr>
+**Go · Docker · PostgreSQL · REST · gRPC**
+
+[→ Explore Repository](https://github.com/MohammedMaaz06/compute-control-plane)
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🤖 MCP Ops Assistant
+
+An AI-powered operations assistant designed around agents, MCP tools, orchestration, and infrastructure workflows.
+
+**Python · FastAPI · LangGraph · MCP · AI Agents**
+
+[→ Explore GitHub](https://github.com/MohammedMaaz06)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 HealOps AI
+
+AI-driven infrastructure operations focused on intelligent analysis, automation, and operational workflows.
+
+**AI · Automation · Cloud · Agents**
+
+[→ Explore GitHub](https://github.com/MohammedMaaz06)
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🎯 AI Interview Coach
+
+An intelligent platform designed to help developers practice interviews and improve their technical preparation.
+
+**AI · Python · Full Stack**
+
+[→ Explore GitHub](https://github.com/MohammedMaaz06)
+
+</td>
+</tr>
 </table>
 
 ---
 
-## GitHub Activity
+## `05` — ENGINEERING MINDSET
 
-Explore my latest repositories, commits, and contributions directly on GitHub:
+```text
+PROBLEM
+   ↓
+UNDERSTAND
+   ↓
+DESIGN
+   ↓
+BUILD
+   ↓
+TEST
+   ↓
+SHIP
+   ↓
+IMPROVE
+   ↺
+```
 
-<p>
-  <a href="https://github.com/MohammedMaaz06?tab=repositories">
-    <img src="https://img.shields.io/badge/View%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="View repositories" />
-  </a>
+I don't build projects just to collect technologies.
 
-  <a href="https://github.com/MohammedMaaz06?tab=overview">
-    <img src="https://img.shields.io/badge/View%20Activity-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub activity" />
-  </a>
-</p>
+I build to **understand systems, solve problems, and become a better engineer.**
 
 ---
 
-## Contribution Graph
+## `06` — GITHUB
 
-See my live contribution activity on my
-<a href="https://github.com/MohammedMaaz06">GitHub profile</a>.
+<div align="center">
 
----
+<a href="https://github.com/MohammedMaaz06">
+<img src="https://github-readme-stats.vercel.app/api?username=MohammedMaaz06&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="170" />
+</a>
 
-## Let's Connect
-
-I'm always happy to connect with people who enjoy building, learning, and sharing ideas.
-
-<p>
-  <a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">
-    LinkedIn
-  </a>
-  ·
-  <a href="https://github.com/MohammedMaaz06">
-    GitHub
-  </a>
-  ·
-  <a href="https://github.com/MohammedMaaz06?tab=repositories">
-    Repositories
-  </a>
-</p>
+<a href="https://github.com/MohammedMaaz06">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedMaaz06&layout=compact&hide_border=true&theme=transparent" height="170" />
+</a>
 
 <br />
 
-<p align="center">
-  <i>Build with curiosity. Improve with consistency.</i>
-</p>
+<img src="https://streak-stats.demolab.com?user=MohammedMaaz06&hide_border=true&theme=transparent" />
+
+</div>
+
+---
+
+## `07` — CONTRIBUTIONS
+
+<div align="center">
+
+[![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=MohammedMaaz06\&hide_border=true\&bg_color=00000000\&color=888888\&line=888888\&point=ffffff)](https://github.com/MohammedMaaz06)
+
+</div>
+
+---
+
+## `08` — CONNECT
+
+<div align="center">
+
+### Let's build something meaningful.
+
+<a href="https://github.com/MohammedMaaz06">
+<img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">
+<img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<br />
+<br />
+
+`BUILD • LEARN • SHIP • REPEAT`
+
+<br />
+
+<sub>© Mohammed Maaz</sub>
+
+</div>
