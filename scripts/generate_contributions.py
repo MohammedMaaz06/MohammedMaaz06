@@ -1,4 +1,5 @@
-python
+import os
+import requests
 import json
 import os
 import urllib.request
