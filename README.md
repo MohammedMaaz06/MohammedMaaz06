@@ -216,7 +216,7 @@ I build to **understand systems, solve problems, and become a better engineer.**
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/MohammedMaaz06/MohammedMaaz06/output/github-snake.svg"
+    src="https://raw.githubusercontent.com/MohammedMaaz06/MohammedMaaz06/output/github-snake.gif"
     alt="GitHub Contribution Snake"
     width="100%"
   />
