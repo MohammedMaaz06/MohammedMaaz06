@@ -214,29 +214,27 @@ I build to **understand systems, solve problems, and become a better engineer.**
 
 <div align="center">
 
-<a href="https://github.com/MohammedMaaz06">
-<img src="https://github-readme-stats.vercel.app/api?username=MohammedMaaz06&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="170" />
-</a>
-
-<a href="https://github.com/MohammedMaaz06">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedMaaz06&layout=compact&hide_border=true&theme=transparent" height="170" />
-</a>
+<img src="https://github-readme-streak-stats-eight.vercel.app/?user=MohammedMaaz06&theme=transparent&hide_border=true" />
 
 <br />
 
-<img src="https://streak-stats.demolab.com?user=MohammedMaaz06&hide_border=true&theme=transparent" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MohammedMaaz06&theme=github_dark" />
 
 </div>
 
----
 
 ## `07` — CONTRIBUTIONS
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=MohammedMaaz06&hide_border=true&background=00000000&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e" />
+<a href="https://github.com/MohammedMaaz06">
+
+<img src="https://streak-stats.demolab.com/?user=MohammedMaaz06&theme=transparent&hide_border=true&background=00000000&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e" />
+
+</a>
 
 </div>
+
 
 ## `08` — CONNECT
 
