@@ -234,11 +234,9 @@ I build to **understand systems, solve problems, and become a better engineer.**
 
 <div align="center">
 
-[![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=MohammedMaaz06\&hide_border=true\&bg_color=00000000\&color=888888\&line=888888\&point=ffffff)](https://github.com/MohammedMaaz06)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=MohammedMaaz06&hide_border=true&background=00000000&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e" />
 
 </div>
-
----
 
 ## `08` — CONNECT
 
