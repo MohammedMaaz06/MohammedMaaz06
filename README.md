@@ -227,13 +227,10 @@ I build to **understand systems, solve problems, and become a better engineer.**
 
 <div align="center">
 
-<a href="https://github.com/MohammedMaaz06">
-
-<img src="https://streak-stats.demolab.com/?user=MohammedMaaz06&theme=transparent&hide_border=true&background=00000000&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e" />
-
-</a>
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MohammedMaaz06\&theme=github-compact\&hide_border=true)](https://github.com/MohammedMaaz06)
 
 </div>
+
 
 
 ## `08` — CONNECT
