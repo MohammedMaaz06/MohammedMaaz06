@@ -8,16 +8,9 @@
 
 <br />
 
-[![GitHub](https://img.shields.io/badge/GitHub-MohammedMaaz06-000000?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/MohammedMaaz06)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohammed%20Maaz-000000?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/mohammed-maaz-6129b2219)
 
 <br />
-
-![Followers](https://img.shields.io/github/followers/MohammedMaaz06?style=flat-square\&label=Followers\&color=555555)
-![Stars](https://img.shields.io/github/stars/MohammedMaaz06?style=flat-square\&label=Stars\&color=555555)
-![Profile Views](https://komarev.com/ghpvc/?username=MohammedMaaz06\&style=flat-square\&color=555555)
-
-</div>
 
 ---
 
