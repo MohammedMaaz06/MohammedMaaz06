@@ -1,40 +1,44 @@
 name: Generate Contributions Calendar
 
 on:
-schedule:
-- cron: "15 0 * * *"
-workflow_dispatch:
+  schedule:
+    - cron: "15 0 * * *"
+  workflow_dispatch:
 
 permissions:
-contents: write
+  contents: write
 
 jobs:
-generate:
-runs-on: ubuntu-latest
+  generate:
+    runs-on: ubuntu-latest
 
-```
-steps:
-  - name: Checkout repository
-    uses: actions/checkout@v4
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-  - name: Generate contribution calendar
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      GITHUB_USER: MohammedMaaz06
-    run: |
-      python scripts/generate_contributions.py
+      - name: Generate contribution calendar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: MohammedMaaz06
+        run: |
+          python3 scripts/generate_contributions.py
 
-  - name: Publish generated calendar
-    run: |
-      git config user.name "github-actions[bot]"
-      git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Save generated SVG
+        run: |
+          mkdir -p /tmp/contributions
+          cp assets/contributions.svg /tmp/contributions/contributions.svg
 
-      git checkout --orphan output
-      git rm -rf . || true
+      - name: Publish to output branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      cp assets/contributions.svg contributions.svg
+          git checkout --orphan output
 
-      git add contributions.svg
-      git commit -m "Update contribution calendar"
-      git push --force origin output
-```
+          git rm -rf . || true
+
+          cp /tmp/contributions/contributions.svg ./contributions.svg
+
+          git add contributions.svg
+          git commit -m "Update contribution calendar"
+          git push --force origin output
