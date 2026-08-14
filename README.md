@@ -223,12 +223,13 @@ I build to **understand systems, solve problems, and become a better engineer.**
 
 <div align="center">
 
-<a href="https://github.com/MohammedMaaz06">
-  <img src="https://ghchart.rshah.org/58a6ff/MohammedMaaz06" alt="Mohammed Maaz GitHub Contributions" width="100%" />
-</a>
+<img
+  src="https://raw.githubusercontent.com/MohammedMaaz06/MohammedMaaz06/output/github-snake.svg"
+  alt="Mohammed Maaz GitHub Contribution Snake"
+  width="100%"
+/>
 
 </div>
-
 ## `08` — CONNECT
 
 <div align="center">
