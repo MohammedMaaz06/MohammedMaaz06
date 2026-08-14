@@ -219,16 +219,15 @@ I build to **understand systems, solve problems, and become a better engineer.**
 </div>
 
 
-07 — CONTRIBUTIONS
+## `07` — CONTRIBUTIONS
 
 <div align="center">
 
-
-
+<a href="https://github.com/MohammedMaaz06">
+  <img src="https://ghchart.rshah.org/58a6ff/MohammedMaaz06" alt="Mohammed Maaz GitHub Contributions" width="100%" />
+</a>
 
 </div>
-
-
 
 ## `08` — CONNECT
 
