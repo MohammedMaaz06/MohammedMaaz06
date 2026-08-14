@@ -210,24 +210,21 @@ I build to **understand systems, solve problems, and become a better engineer.**
 
 ---
 
-## `06` — GITHUB
+06 — GITHUB
 
 <div align="center">
 
 <img src="https://github-readme-streak-stats-eight.vercel.app/?user=MohammedMaaz06&theme=transparent&hide_border=true" />
 
-<br />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MohammedMaaz06&theme=github_dark" />
-
 </div>
 
 
-## `07` — CONTRIBUTIONS
+07 — CONTRIBUTIONS
 
 <div align="center">
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MohammedMaaz06\&theme=github-compact\&hide_border=true)](https://github.com/MohammedMaaz06)
+
+
 
 </div>
 
