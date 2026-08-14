@@ -217,20 +217,24 @@ I build to **understand systems, solve problems, and become a better engineer.**
 <div align="center">
 
 <img
-  src="https://raw.githubusercontent.com/MohammedMaaz06/MohammedMaaz06/output/github-snake.svg"
-  alt="Mohammed Maaz GitHub Contribution Snake"
-  width="100%"
+src="https://raw.githubusercontent.com/MohammedMaaz06/MohammedMaaz06/output/github-snake.svg"
+alt="Mohammed Maaz GitHub Contribution Snake"
+width="100%"
 />
 
 </div>
+
+---
+
 ## `08` — CONNECT
 
 <div align="center">
 
 ### Let's build something meaningful.
 
+
 <a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">
-<img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <img src="https://img.shields.io/badge/LINKEDIN-111111?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
 <br />
@@ -238,6 +242,7 @@ I build to **understand systems, solve problems, and become a better engineer.**
 
 `BUILD • LEARN • SHIP • REPEAT`
 
+<br />
 <br />
 
 <sub>© Mohammed Maaz</sub>
