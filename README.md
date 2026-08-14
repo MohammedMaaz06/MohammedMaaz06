@@ -214,15 +214,13 @@ I build to **understand systems, solve problems, and become a better engineer.**
 
 <h2><code>07</code> — CONTRIBUTIONS</h2>
 
-<div align="center">
-
-<img
-src="https://raw.githubusercontent.com/MohammedMaaz06/MohammedMaaz06/output/github-snake.svg"
-alt="GitHub Contribution Snake"
-width="100%"
-/>
-
-</div>
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/MohammedMaaz06/MohammedMaaz06/output/github-snake.svg"
+    alt="Mohammed Maaz GitHub Contribution Snake"
+    width="100%"
+  />
+</p>
 
 <hr />
 
