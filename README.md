@@ -214,13 +214,15 @@ I build to **understand systems, solve problems, and become a better engineer.**
 
 <h2><code>07</code> — CONTRIBUTIONS</h2>
 
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/MohammedMaaz06/MohammedMaaz06/output/github-snake.gif"
-    alt="GitHub Contribution Snake"
-    width="100%"
-  />
-</p>
+<div align="center">
+
+<img
+src="https://raw.githubusercontent.com/MohammedMaaz06/MohammedMaaz06/output/github-snake.svg"
+alt="GitHub Contribution Snake"
+width="100%"
+/>
+
+</div>
 
 <hr />
 
@@ -229,6 +231,10 @@ I build to **understand systems, solve problems, and become a better engineer.**
 <div align="center">
 
 <h3>Let's build something meaningful.</h3>
+
+<a href="https://github.com/MohammedMaaz06">
+  <img src="https://img.shields.io/badge/GITHUB-111111?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
 <a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">
   <img src="https://img.shields.io/badge/LINKEDIN-111111?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -245,6 +251,3 @@ I build to **understand systems, solve problems, and become a better engineer.**
 <sub>© Mohammed Maaz</sub>
 
 </div>
-
-
----
