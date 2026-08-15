@@ -1,9 +1,12 @@
-name: Generate Contributions Calendar
+name: Update Contributions
 
 on:
   schedule:
-    - cron: "15 0 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -14,31 +17,25 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Generate contribution calendar
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: MohammedMaaz06
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python3 scripts/generate_contributions.py
+          python scripts/generate_contributions.py
 
-      - name: Save generated SVG
-        run: |
-          mkdir -p /tmp/contributions
-          cp assets/contributions.svg /tmp/contributions/contributions.svg
-
-      - name: Publish to output branch
+      - name: Commit contribution calendar
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git checkout --orphan output
+          git add assets/contributions.svg
 
-          git rm -rf . || true
-
-          cp /tmp/contributions/contributions.svg ./contributions.svg
-
-          git add contributions.svg
-          git commit -m "Update contribution calendar"
-          git push --force origin output
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update contribution calendar"
+            git push
+          fi
