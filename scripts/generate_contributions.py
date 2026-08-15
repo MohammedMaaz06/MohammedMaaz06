@@ -118,31 +118,6 @@ height="{HEIGHT}">
 
 <defs>
 
-    <linearGradient
-        id="flightGradient"
-        x1="0%"
-        y1="0%"
-        x2="100%"
-        y2="0%">
-
-        <stop
-            offset="0%"
-            stop-color="#2563eb"/>
-
-        <stop
-            offset="45%"
-            stop-color="#06b6d4"/>
-
-        <stop
-            offset="75%"
-            stop-color="#10b981"/>
-
-        <stop
-            offset="100%"
-            stop-color="#22c55e"/>
-
-    </linearGradient>
-
     <filter
         id="planeGlow"
         x="-100%"
@@ -292,7 +267,7 @@ for weekday, label in weekday_labels.items():
 
 
 # ---------------------------------------------------------
-# REAL CONTRIBUTION CELLS
+# REAL GITHUB CONTRIBUTION CELLS
 # ---------------------------------------------------------
 
 for week_index, week in enumerate(weeks):
@@ -350,14 +325,13 @@ for week_index, week in enumerate(weeks):
 
 
 # ---------------------------------------------------------
-# LEGEND ONLY
+# LEGEND
 # ---------------------------------------------------------
-# Removed:
-# - "Learn how we count contributions"
-# - "Contribution settings"
+# Only the contribution intensity legend is kept.
 #
-# The legend remains because it represents the real
-# contribution intensity levels.
+# Removed:
+# - Contribution settings
+# - Learn how we count contributions
 
 footer_y = TOP + 7 * STEP + 25
 
@@ -410,57 +384,34 @@ More
 
 
 # ---------------------------------------------------------
-# MOVING STEALTH JET
+# SMOOTH MOVING STEALTH JET
 # ---------------------------------------------------------
-# The jet travels INSIDE the actual contribution calendar.
 #
-# The contribution cells above are NOT changed.
-# They continue to represent real GitHub contribution data.
+# The jet moves through the REAL contribution calendar.
 #
-# rotate="auto" makes the jet nose follow the flight path.
-# There is NO 360-degree rotation.
+# No visible flight path.
+# No 360-degree rotation.
+# No random movement.
+# No curved movement.
+#
+# The jet remains stable and flies smoothly from
+# left to right.
 
-graph_left = LEFT
-graph_right = LEFT + (WEEKS - 1) * STEP
-
-graph_top = TOP
-graph_bottom = TOP + 6 * STEP
-
-
-# ---------------------------------------------------------
-# FLIGHT PATH
-# ---------------------------------------------------------
 
 graph_left = LEFT + 8
 graph_right = LEFT + (WEEKS - 1) * STEP - 8
 
-# Keep the jet centered inside the contribution grid.
+
+# Vertically centered inside the contribution grid.
+
 jet_y = TOP + 3 * STEP + 5
 
-# Simple straight flight.
-# No visible path.
-# No random movement.
-# No rotation.
+
+# Simple horizontal flight path.
+
 flight_path = (
     f"M {graph_left} {jet_y} "
     f"L {graph_right} {jet_y}"
-)
-
-
-# ---------------------------------------------------------
-# SUBTLE FLIGHT TRAIL
-# ---------------------------------------------------------
-
-svg.append(
-    f'''
-<path
-    d="{flight_path}"
-    fill="none"
-    stroke="url(#flightGradient)"
-    stroke-width="1"
-    stroke-opacity="0.12"
-    stroke-dasharray="3 6"/>
-'''
 )
 
 
@@ -470,55 +421,59 @@ svg.append(
 
 svg.append(
     f'''
-<g
-    filter="url(#planeGlow)">
-
-    <animateMotion
-        dur="14s"
-        repeatCount="indefinite"
-        rotate="auto"
-        path="{flight_path}"/>
-
+<g>
 
     <!--
-        Stealth flying-wing jet.
+        Smooth horizontal movement.
 
-        The nose points toward the right.
-        animateMotion + rotate="auto"
-        makes the nose follow the flight path.
+        25 seconds = slow, smooth movement.
+
+        rotate="0" keeps the jet stable.
     -->
 
-    <g transform="scale(0.65)">
+    <animateMotion
+        dur="25s"
+        repeatCount="indefinite"
+        path="{flight_path}"
+        rotate="0"/>
+
+
+    <!-- STEALTH JET -->
+
+    <g
+        transform="scale(0.65)"
+        filter="url(#planeGlow)">
+
 
         <!-- Main stealth body -->
 
         <path
             d="
-                M 24 0
-                L 8 -4
+                M 28 0
+                L 10 -4
                 L -8 -13
-                L -34 -9
-                L -15 -2
-                L -38 0
-                L -15 2
-                L -34 9
+                L -38 -9
+                L -16 -2
+                L -42 0
+                L -16 2
+                L -38 9
                 L -8 13
-                L 8 4
+                L 10 4
                 Z
             "
             fill="#1f2937"
             stroke="#111827"
-            stroke-width="1"/>
+            stroke-width="1.2"/>
 
 
         <!-- Upper wing -->
 
         <path
             d="
-                M 8 -2
-                L -18 -18
-                L -38 -17
-                L -14 -1
+                M 10 -2
+                L -20 -19
+                L -42 -17
+                L -15 -1
                 Z
             "
             fill="#374151"
@@ -530,10 +485,10 @@ svg.append(
 
         <path
             d="
-                M 8 2
-                L -18 18
-                L -38 17
-                L -14 1
+                M 10 2
+                L -20 19
+                L -42 17
+                L -15 1
                 Z
             "
             fill="#374151"
@@ -545,10 +500,10 @@ svg.append(
 
         <path
             d="
-                M 8 -3
-                L 19 0
-                L 8 3
-                L 3 0
+                M 10 -3
+                L 22 0
+                L 10 3
+                L 4 0
                 Z
             "
             fill="#38bdf8"/>
@@ -558,9 +513,9 @@ svg.append(
 
         <path
             d="
-                M -25 -2
-                L -39 0
-                L -25 2
+                M -27 -2
+                L -43 0
+                L -27 2
                 Z
             "
             fill="#22d3ee"/>
