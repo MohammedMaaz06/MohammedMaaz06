@@ -28,9 +28,9 @@ query($login: String!) {
 """
 
 
-# ---------------------------------------------------------
+# =========================================================
 # FETCH REAL GITHUB CONTRIBUTION DATA
-# ---------------------------------------------------------
+# =========================================================
 
 payload = json.dumps({
     "query": QUERY,
@@ -73,9 +73,9 @@ weeks = calendar["weeks"]
 total = calendar["totalContributions"]
 
 
-# ---------------------------------------------------------
+# =========================================================
 # CALENDAR CONFIGURATION
-# ---------------------------------------------------------
+# =========================================================
 
 CELL = 11
 GAP = 3
@@ -90,9 +90,9 @@ WIDTH = LEFT + WEEKS * STEP + 20
 HEIGHT = 215
 
 
-# ---------------------------------------------------------
-# CONTRIBUTION COLORS
-# ---------------------------------------------------------
+# =========================================================
+# GITHUB CONTRIBUTION COLORS
+# =========================================================
 
 COLORS = [
     "#ebedf0",
@@ -103,9 +103,9 @@ COLORS = [
 ]
 
 
-# ---------------------------------------------------------
+# =========================================================
 # SVG START
-# ---------------------------------------------------------
+# =========================================================
 
 svg = []
 
@@ -119,14 +119,14 @@ height="{HEIGHT}">
 <defs>
 
     <filter
-        id="planeGlow"
+        id="jetGlow"
         x="-100%"
         y="-100%"
         width="300%"
         height="300%">
 
         <feGaussianBlur
-            stdDeviation="2"
+            stdDeviation="1.5"
             result="blur"/>
 
         <feMerge>
@@ -172,7 +172,9 @@ text {{
 </style>
 
 
-<!-- CARD -->
+<!-- =====================================================
+     CARD
+     ===================================================== -->
 
 <rect
     x="1"
@@ -184,7 +186,9 @@ text {{
     stroke="#d0d7de"/>
 
 
-<!-- HEADER -->
+<!-- =====================================================
+     HEADER
+     ===================================================== -->
 
 <text
     class="header"
@@ -199,9 +203,9 @@ text {{
 )
 
 
-# ---------------------------------------------------------
+# =========================================================
 # MONTH LABELS
-# ---------------------------------------------------------
+# =========================================================
 
 previous_month = None
 
@@ -237,9 +241,9 @@ for week_index, week in enumerate(weeks):
         previous_month = month
 
 
-# ---------------------------------------------------------
+# =========================================================
 # WEEKDAY LABELS
-# ---------------------------------------------------------
+# =========================================================
 
 weekday_labels = {
     1: "Mon",
@@ -266,9 +270,9 @@ for weekday, label in weekday_labels.items():
     )
 
 
-# ---------------------------------------------------------
+# =========================================================
 # REAL GITHUB CONTRIBUTION CELLS
-# ---------------------------------------------------------
+# =========================================================
 
 for week_index, week in enumerate(weeks):
 
@@ -280,8 +284,6 @@ for week_index, week in enumerate(weeks):
         x = LEFT + week_index * STEP
         y = TOP + weekday * STEP
 
-
-        # Contribution intensity
 
         if count == 0:
             level = 0
@@ -324,14 +326,9 @@ for week_index, week in enumerate(weeks):
         )
 
 
-# ---------------------------------------------------------
-# LEGEND
-# ---------------------------------------------------------
-# Only the contribution intensity legend is kept.
-#
-# Removed:
-# - Contribution settings
-# - Learn how we count contributions
+# =========================================================
+# CONTRIBUTION LEGEND
+# =========================================================
 
 footer_y = TOP + 7 * STEP + 25
 
@@ -383,69 +380,90 @@ More
 )
 
 
-# ---------------------------------------------------------
-# SMOOTH MOVING STEALTH JET
-# ---------------------------------------------------------
+# =========================================================
+# SMOOTH JET ANIMATION
+# =========================================================
 #
-# The jet moves through the REAL contribution calendar.
+# The jet moves directly INSIDE the real contribution grid.
 #
-# No visible flight path.
-# No 360-degree rotation.
+# Movement:
+#
+#       START
+#         ✈  -------------------->
+#
+#                              END
+#                               ✈
+#
+# Then smoothly returns:
+#
+#                              ✈
+#                         <----
+#
+#         ✈
+#
+# No flight trail.
 # No random movement.
-# No curved movement.
+# No 360 degree rotation.
+# No animateMotion.
 #
-# The jet remains stable and flies smoothly from
-# left to right.
 
 
-graph_left = LEFT + 8
-graph_right = LEFT + (WEEKS - 1) * STEP - 8
-
-
-# Vertically centered inside the contribution grid.
+jet_start_x = LEFT + 12
+jet_end_x = LEFT + (WEEKS - 1) * STEP - 12
 
 jet_y = TOP + 3 * STEP + 5
 
 
-# Simple horizontal flight path.
-
-flight_path = (
-    f"M {graph_left} {jet_y} "
-    f"L {graph_right} {jet_y}"
-)
-
-
-# ---------------------------------------------------------
-# STEALTH JET
-# ---------------------------------------------------------
+# =========================================================
+# JET
+# =========================================================
 
 svg.append(
     f'''
-<g>
+<g
+    filter="url(#jetGlow)">
 
     <!--
-        Smooth horizontal movement.
+        Smooth left -> right -> left animation.
 
-        25 seconds = slow, smooth movement.
-
-        rotate="0" keeps the jet stable.
+        The jet remains completely stable.
+        The jet does NOT rotate.
     -->
 
-    <animateMotion
-        dur="25s"
+    <animateTransform
+        attributeName="transform"
+        attributeType="XML"
+        type="translate"
+
+        values="
+            {jet_start_x} {jet_y};
+            {jet_end_x} {jet_y};
+            {jet_start_x} {jet_y}
+        "
+
+        dur="20s"
         repeatCount="indefinite"
-        path="{flight_path}"
-        rotate="0"/>
+
+        calcMode="spline"
+
+        keyTimes="0;0.5;1"
+
+        keySplines="
+            0.42 0 0.58 1;
+            0.42 0 0.58 1
+        "
+    />
 
 
-    <!-- STEALTH JET -->
+    <!-- =================================================
+         STEALTH JET
+         ================================================= -->
 
     <g
-        transform="scale(0.65)"
-        filter="url(#planeGlow)">
+        transform="scale(0.65)">
 
 
-        <!-- Main stealth body -->
+        <!-- Main body -->
 
         <path
             d="
@@ -509,7 +527,7 @@ svg.append(
             fill="#38bdf8"/>
 
 
-        <!-- Engine glow -->
+        <!-- Engine -->
 
         <path
             d="
@@ -527,9 +545,9 @@ svg.append(
 )
 
 
-# ---------------------------------------------------------
+# =========================================================
 # CLOSE SVG
-# ---------------------------------------------------------
+# =========================================================
 
 svg.append(
     '''
@@ -538,9 +556,9 @@ svg.append(
 )
 
 
-# ---------------------------------------------------------
-# WRITE FILE
-# ---------------------------------------------------------
+# =========================================================
+# WRITE GENERATED SVG
+# =========================================================
 
 os.makedirs(
     "assets",
