@@ -434,87 +434,188 @@ More
 
 
 # ---------------------------------------------------------
-# MOVING FUTURISTIC AIRPLANE
+# MOVING FUTURISTIC JET — INSIDE CONTRIBUTION GRAPH
 # ---------------------------------------------------------
 
-plane_y = footer_y + 30
+# Contribution grid boundaries
+graph_left = LEFT + 5
+graph_right = LEFT + (WEEKS - 1) * STEP + CELL - 5
 
-flight_start = LEFT + 5
-flight_end = WIDTH - 35
+graph_top = TOP + 5
+graph_bottom = TOP + 6 * STEP + CELL - 5
+
+graph_center_x = (graph_left + graph_right) / 2
+graph_center_y = (graph_top + graph_bottom) / 2
+
+orbit_radius_x = (graph_right - graph_left) / 2
+orbit_radius_y = (graph_bottom - graph_top) / 2
 
 
-# Flight line
+# ---------------------------------------------------------
+# JET FLIGHT PATH
+# ---------------------------------------------------------
+# The path stays INSIDE the contribution calendar.
+
+flight_path = (
+    f"M {graph_center_x + orbit_radius_x},{graph_center_y} "
+    f"A {orbit_radius_x},{orbit_radius_y} 0 1 1 "
+    f"{graph_center_x - orbit_radius_x},{graph_center_y} "
+    f"A {orbit_radius_x},{orbit_radius_y} 0 1 1 "
+    f"{graph_center_x + orbit_radius_x},{graph_center_y}"
+)
+
+
+# Subtle flight trail inside the contribution graph
 
 svg.append(
     f'''
-<line
-    x1="{flight_start}"
-    y1="{plane_y}"
-    x2="{flight_end}"
-    y2="{plane_y}"
+<path
+    d="{flight_path}"
+    fill="none"
     stroke="url(#flightGradient)"
-    stroke-width="1.5"
-    stroke-opacity="0.35"
-    stroke-dasharray="5 7"/>
+    stroke-width="1"
+    stroke-opacity="0.18"
+    stroke-dasharray="3 6"/>
 '''
 )
 
 
-# Airplane
+# ---------------------------------------------------------
+# FUTURISTIC JET
+# ---------------------------------------------------------
 
 svg.append(
     f'''
 <g filter="url(#planeGlow)">
 
+    <!-- Move around the contribution graph -->
+
     <g>
 
-        <animateTransform
-            attributeName="transform"
-            type="translate"
-            values="
-                {flight_start},{plane_y};
-                {flight_end},{plane_y};
-                {flight_start},{plane_y}
-            "
+        <animateMotion
             dur="10s"
-            repeatCount="indefinite"/>
+            repeatCount="indefinite"
+            rotate="auto"
+            path="{flight_path}"/>
 
 
-        <!-- futuristic airplane -->
+        <!-- Full 360 degree jet rotation -->
 
-        <path
-            d="
-                M -10 0
-                L 4 0
-                L 11 -3
-                L 14 0
-                L 11 3
-                L 4 0
-                L -3 7
-                L -6 7
-                L -2 1
-                L -10 0
-                Z
-            "
-            fill="#06b6d4"
-            stroke="#0369a1"
-            stroke-width="0.8"
-        />
+        <g>
+
+            <animateTransform
+                attributeName="transform"
+                type="rotate"
+                from="0"
+                to="360"
+                dur="2s"
+                repeatCount="indefinite"/>
 
 
-        <!-- cockpit -->
+            <!-- JET -->
 
-        <circle
-            cx="3"
-            cy="-1"
-            r="1.3"
-            fill="#ffffff"/>
+            <g transform="scale(0.8)">
+
+                <!-- Main fuselage -->
+
+                <path
+                    d="
+                        M -14 0
+                        L 7 0
+                        L 16 -4
+                        L 21 0
+                        L 16 4
+                        L 7 0
+                        Z
+                    "
+                    fill="#06b6d4"
+                    stroke="#0369a1"
+                    stroke-width="1"
+                />
+
+
+                <!-- Top wing -->
+
+                <path
+                    d="
+                        M 2 0
+                        L -7 -10
+                        L -1 -9
+                        L 8 -1
+                        Z
+                    "
+                    fill="#0284c7"
+                />
+
+
+                <!-- Bottom wing -->
+
+                <path
+                    d="
+                        M 2 0
+                        L -7 10
+                        L -1 9
+                        L 8 1
+                        Z
+                    "
+                    fill="#0284c7"
+                />
+
+
+                <!-- Tail -->
+
+                <path
+                    d="
+                        M -8 0
+                        L -13 -7
+                        L -8 -6
+                        L -3 0
+                        Z
+                    "
+                    fill="#075985"
+                />
+
+
+                <!-- Cockpit -->
+
+                <ellipse
+                    cx="8"
+                    cy="-1"
+                    rx="3"
+                    ry="1.5"
+                    fill="#ffffff"
+                />
+
+
+                <!-- Engine -->
+
+                <circle
+                    cx="-10"
+                    cy="0"
+                    r="2"
+                    fill="#22d3ee"
+                />
+
+
+                <!-- Engine trail -->
+
+                <path
+                    d="M -12 0 L -24 0"
+                    stroke="#22d3ee"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                />
+
+            </g>
+
+        </g>
 
     </g>
 
 </g>
 '''
 )
+
 
 
 # ---------------------------------------------------------
