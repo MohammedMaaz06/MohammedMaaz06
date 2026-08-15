@@ -214,13 +214,17 @@ I build to **understand systems, solve problems, and become a better engineer.**
 
 ## `07` — CONTRIBUTIONS
 
-<p align="center">
-  <img
-    src="./assets/contributions.svg"
-    width="100%"
-    alt="Mohammed Maaz GitHub Contributions"
-  />
-</p>
+<div align="center">
+
+<img
+  src="./assets/contributions.svg"
+  width="100%"
+  alt="Mohammed Maaz GitHub Contributions"
+/>
+
+</div>
+
+---
 <hr />
 
 <h2><code>08</code> — CONNECT</h2>
