@@ -214,11 +214,13 @@ I build to **understand systems, solve problems, and become a better engineer.**
 
 ## `07` — CONTRIBUTIONS
 
+## `07` — CONTRIBUTIONS
+
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/MohammedMaaz06/MohammedMaaz06/main/assets/contributions.svg"
-    alt="Mohammed Maaz GitHub Contributions"
+    src="./assets/contributions.svg"
     width="100%"
+    alt="Mohammed Maaz GitHub Contributions"
   />
 </p>
 <hr />
