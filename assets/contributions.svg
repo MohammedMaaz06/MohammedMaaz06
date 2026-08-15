@@ -6,40 +6,15 @@ height="215">
 
 <defs>
 
-    <linearGradient
-        id="flightGradient"
-        x1="0%"
-        y1="0%"
-        x2="100%"
-        y2="0%">
-
-        <stop
-            offset="0%"
-            stop-color="#2563eb"/>
-
-        <stop
-            offset="45%"
-            stop-color="#06b6d4"/>
-
-        <stop
-            offset="75%"
-            stop-color="#10b981"/>
-
-        <stop
-            offset="100%"
-            stop-color="#22c55e"/>
-
-    </linearGradient>
-
     <filter
-        id="planeGlow"
+        id="jetGlow"
         x="-100%"
         y="-100%"
         width="300%"
         height="300%">
 
         <feGaussianBlur
-            stdDeviation="2"
+            stdDeviation="1.5"
             result="blur"/>
 
         <feMerge>
@@ -85,7 +60,9 @@ text {
 </style>
 
 
-<!-- CARD -->
+<!-- =====================================================
+     CARD
+     ===================================================== -->
 
 <rect
     x="1"
@@ -97,14 +74,16 @@ text {
     stroke="#d0d7de"/>
 
 
-<!-- HEADER -->
+<!-- =====================================================
+     HEADER
+     ===================================================== -->
 
 <text
     class="header"
     x="18"
     y="28">
 
-78 contributions in the last year
+94 contributions in the last year
 
 </text>
 
@@ -6550,12 +6529,12 @@ Fri
     height="11"
     rx="2"
     ry="2"
-    fill="#30a14e"
+    fill="#216e39"
     stroke="#ffffff"
     stroke-width="1">
 
     <title>
-        2026-08-15: 6 contributions
+        2026-08-15: 22 contributions
     </title>
 
 </rect>
@@ -6618,63 +6597,78 @@ More
 
 </text>
 
-<path
-    d="M 60 137 C 145 66, 235 66, 325 137 C 415 137, 505 66, 595 66 C 685 66, 775 137, 778 66"
-    fill="none"
-    stroke="url(#flightGradient)"
-    stroke-width="1"
-    stroke-opacity="0.12"
-    stroke-dasharray="3 6"/>
-
 <g
-    filter="url(#planeGlow)">
-
-    <animateMotion
-        dur="14s"
-        repeatCount="indefinite"
-        rotate="auto"
-        path="M 60 137 C 145 66, 235 66, 325 137 C 415 137, 505 66, 595 66 C 685 66, 775 137, 778 66"/>
-
+    filter="url(#jetGlow)">
 
     <!--
-        Stealth flying-wing jet.
+        Smooth left -> right -> left animation.
 
-        The nose points toward the right.
-        animateMotion + rotate="auto"
-        makes the nose follow the flight path.
+        The jet remains completely stable.
+        The jet does NOT rotate.
     -->
 
-    <g transform="scale(0.65)">
+    <animateTransform
+        attributeName="transform"
+        attributeType="XML"
+        type="translate"
 
-        <!-- Main stealth body -->
+        values="
+            67 105;
+            771 105;
+            67 105
+        "
+
+        dur="20s"
+        repeatCount="indefinite"
+
+        calcMode="spline"
+
+        keyTimes="0;0.5;1"
+
+        keySplines="
+            0.42 0 0.58 1;
+            0.42 0 0.58 1
+        "
+    />
+
+
+    <!-- =================================================
+         STEALTH JET
+         ================================================= -->
+
+    <g
+        transform="scale(0.65)">
+
+
+        <!-- Main body -->
 
         <path
             d="
-                M 24 0
-                L 8 -4
+                M 28 0
+                L 10 -4
                 L -8 -13
-                L -34 -9
-                L -15 -2
-                L -38 0
-                L -15 2
-                L -34 9
+                L -38 -9
+                L -16 -2
+                L -42 0
+                L -16 2
+                L -38 9
                 L -8 13
-                L 8 4
+                L 10 4
                 Z
             "
             fill="#1f2937"
             stroke="#111827"
-            stroke-width="1"/>
+            stroke-width="1.2"/>
 
 
         <!-- Upper wing -->
 
         <path
             d="
-                M 8 -2
-                L -18 -18
-                L -38 -17
-                L -14 -1
+                M 10 -2
+                L -20 -19
+                L -42 -17
+                L -15 -1
                 Z
             "
             fill="#374151"
@@ -6686,10 +6680,10 @@ More
 
         <path
             d="
-                M 8 2
-                L -18 18
-                L -38 17
-                L -14 1
+                M 10 2
+                L -20 19
+                L -42 17
+                L -15 1
                 Z
             "
             fill="#374151"
@@ -6701,22 +6695,22 @@ More
 
         <path
             d="
-                M 8 -3
-                L 19 0
-                L 8 3
-                L 3 0
+                M 10 -3
+                L 22 0
+                L 10 3
+                L 4 0
                 Z
             "
             fill="#38bdf8"/>
 
 
-        <!-- Engine glow -->
+        <!-- Engine -->
 
         <path
             d="
-                M -25 -2
-                L -39 0
-                L -25 2
+                M -27 -2
+                L -43 0
+                L -27 2
                 Z
             "
             fill="#22d3ee"/>
