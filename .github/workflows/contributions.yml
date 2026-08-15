@@ -2,12 +2,8 @@ name: Update Contributions
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 2 * * *"
   workflow_dispatch:
-  push:
-    paths:
-      - "scripts/generate_contributions.py"
-      - ".github/workflows/contributions.yml"
 
 permissions:
   contents: write
@@ -18,12 +14,15 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
-
-      - name: Setup Python
-        uses: actions/setup-python@v6
+        uses: actions/checkout@v4
         with:
-          python-version: "3.12"
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
       - name: Generate contribution graph
         env:
@@ -32,12 +31,7 @@ jobs:
         run: |
           python scripts/generate_contributions.py
 
-      - name: Check generated file
-        run: |
-          git status
-          ls -lh assets/contributions.svg
-
-      - name: Commit updated graph
+      - name: Commit and push contribution graph
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -45,8 +39,12 @@ jobs:
           git add assets/contributions.svg
 
           if git diff --cached --quiet; then
-            echo "No contribution changes detected."
-          else
-            git commit -m "chore: update contribution graph"
-            git push
+            echo "No contribution changes."
+            exit 0
           fi
+
+          git commit -m "chore: update contribution graph"
+
+          git pull --rebase origin main
+
+          git push origin HEAD:main
