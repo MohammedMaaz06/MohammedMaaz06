@@ -3,30 +3,28 @@ name: Update Contributions
 on:
   schedule:
     - cron: "0 0 * * *"
+
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
 
 jobs:
-  generate:
+  update-contributions:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
 
-      - name: Generate contribution calendar
+      - name: Generate contribution graph
         env:
           GITHUB_USER: MohammedMaaz06
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python scripts/generate_contributions.py
 
-      - name: Commit contribution calendar
+      - name: Commit updated contribution graph
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -34,8 +32,8 @@ jobs:
           git add assets/contributions.svg
 
           if git diff --cached --quiet; then
-            echo "No changes to commit."
+            echo "No contribution changes."
           else
-            git commit -m "Update contribution calendar"
+            git commit -m "chore: update contribution graph"
             git push
           fi
