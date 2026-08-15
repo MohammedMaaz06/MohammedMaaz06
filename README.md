@@ -225,7 +225,6 @@ I build to **understand systems, solve problems, and become a better engineer.**
 </div>
 
 ---
-<hr />
 
 <h2><code>08</code> — CONNECT</h2>
 
