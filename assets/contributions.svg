@@ -6648,134 +6648,136 @@ More
 </text>
 
 <path
-    d="M 789.0,105.5 A 364.5,42.5 0 1 1 60.0,105.5 A 364.5,42.5 0 1 1 789.0,105.5"
+    d="M 63 145 C 135 63, 215 63, 285 145 C 365 145, 445 63, 525 63 C 605 63, 685 145, 786 66"
     fill="none"
     stroke="url(#flightGradient)"
-    stroke-width="1"
-    stroke-opacity="0.18"
-    stroke-dasharray="3 6"/>
+    stroke-width="1.5"
+    stroke-opacity="0.20"
+    stroke-dasharray="4 6"/>
 
 <g filter="url(#planeGlow)">
 
-    <!-- Move around the contribution graph -->
+    <!-- Jet follows the path.
+         rotate="auto" keeps the NOSE aligned
+         with the direction of travel. -->
 
     <g>
 
         <animateMotion
-            dur="10s"
+            dur="12s"
             repeatCount="indefinite"
             rotate="auto"
-            path="M 789.0,105.5 A 364.5,42.5 0 1 1 60.0,105.5 A 364.5,42.5 0 1 1 789.0,105.5"/>
+            path="M 63 145 C 135 63, 215 63, 285 145 C 365 145, 445 63, 525 63 C 605 63, 685 145, 786 66"
+        />
 
 
-        <!-- Full 360 degree jet rotation -->
+        <!--
+        B-2 / flying-wing inspired silhouette
 
-        <g>
+        The jet itself NEVER spins.
+        It only turns naturally with the flight path.
+        -->
 
-            <animateTransform
-                attributeName="transform"
-                type="rotate"
-                from="0"
-                to="360"
-                dur="2s"
-                repeatCount="indefinite"/>
+        <g transform="scale(0.95)">
 
+            <!-- Main flying-wing body -->
 
-            <!-- JET -->
+            <path
+                d="
+                    M -20 2
 
-            <g transform="scale(0.8)">
+                    L -8 -2
+                    L -2 -7
+                    L 4 -10
+                    L 9 -8
+                    L 18 -3
+                    L 27 0
 
-                <!-- Main fuselage -->
+                    L 18 3
+                    L 9 8
+                    L 4 10
+                    L -2 7
+                    L -8 2
 
-                <path
-                    d="
-                        M -14 0
-                        L 7 0
-                        L 16 -4
-                        L 21 0
-                        L 16 4
-                        L 7 0
-                        Z
-                    "
-                    fill="#06b6d4"
-                    stroke="#0369a1"
-                    stroke-width="1"
-                />
-
-
-                <!-- Top wing -->
-
-                <path
-                    d="
-                        M 2 0
-                        L -7 -10
-                        L -1 -9
-                        L 8 -1
-                        Z
-                    "
-                    fill="#0284c7"
-                />
+                    Z
+                "
+                fill="#111827"
+                stroke="#075985"
+                stroke-width="0.9"
+            />
 
 
-                <!-- Bottom wing -->
+            <!-- Left swept wing -->
 
-                <path
-                    d="
-                        M 2 0
-                        L -7 10
-                        L -1 9
-                        L 8 1
-                        Z
-                    "
-                    fill="#0284c7"
-                />
-
-
-                <!-- Tail -->
-
-                <path
-                    d="
-                        M -8 0
-                        L -13 -7
-                        L -8 -6
-                        L -3 0
-                        Z
-                    "
-                    fill="#075985"
-                />
+            <path
+                d="
+                    M -2 -2
+                    L -19 -10
+                    L -31 -7
+                    L -8 1
+                    Z
+                "
+                fill="#1f2937"
+                stroke="#0e7490"
+                stroke-width="0.6"
+            />
 
 
-                <!-- Cockpit -->
+            <!-- Right swept wing -->
 
-                <ellipse
-                    cx="8"
-                    cy="-1"
-                    rx="3"
-                    ry="1.5"
-                    fill="#ffffff"
-                />
-
-
-                <!-- Engine -->
-
-                <circle
-                    cx="-10"
-                    cy="0"
-                    r="2"
-                    fill="#22d3ee"
-                />
+            <path
+                d="
+                    M -2 2
+                    L -19 10
+                    L -31 7
+                    L -8 -1
+                    Z
+                "
+                fill="#1f2937"
+                stroke="#0e7490"
+                stroke-width="0.6"
+            />
 
 
-                <!-- Engine trail -->
+            <!-- Central stealth body -->
 
-                <path
-                    d="M -12 0 L -24 0"
-                    stroke="#22d3ee"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                />
+            <path
+                d="
+                    M -12 0
+                    L 8 -5
+                    L 22 0
+                    L 8 5
+                    Z
+                "
+                fill="#374151"
+            />
 
-            </g>
+
+            <!-- Cockpit -->
+
+            <path
+                d="
+                    M 7 -2
+                    L 15 0
+                    L 7 2
+                    L 4 0
+                    Z
+                "
+                fill="#38bdf8"
+            />
+
+
+            <!-- Engine glow -->
+
+            <path
+                d="
+                    M -23 -2
+                    L -31 0
+                    L -23 2
+                    Z
+                "
+                fill="#22d3ee"
+            />
 
         </g>
 
