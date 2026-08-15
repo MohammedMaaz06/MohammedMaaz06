@@ -1,5 +1,7 @@
 import json
+import math
 import os
+import random
 import urllib.request
 from datetime import datetime
 
@@ -29,7 +31,7 @@ query($login: String!) {
 
 
 # =========================================================
-# FETCH REAL GITHUB CONTRIBUTION DATA
+# FETCH REAL GITHUB CONTRIBUTIONS
 # =========================================================
 
 payload = json.dumps({
@@ -74,7 +76,7 @@ total = calendar["totalContributions"]
 
 
 # =========================================================
-# CALENDAR CONFIGURATION
+# CALENDAR
 # =========================================================
 
 CELL = 11
@@ -90,10 +92,6 @@ WIDTH = LEFT + WEEKS * STEP + 20
 HEIGHT = 215
 
 
-# =========================================================
-# CONTRIBUTION COLORS
-# =========================================================
-
 COLORS = [
     "#ebedf0",
     "#9be9a8",
@@ -104,10 +102,181 @@ COLORS = [
 
 
 # =========================================================
-# SVG START
+# RANDOM FLIGHT ROUTE
+# =========================================================
+#
+# The route is generated every time this script runs.
+#
+# The jet:
+#
+#   ✈ → ↗ → ↑ → ↖ → ← → ↙ → ↓ → ↘ → →
+#
+# changes direction naturally.
+#
+# The path is NOT displayed.
+#
+# =========================================================
+
+random.seed()
+
+
+FLIGHT_LEFT = LEFT + 8
+FLIGHT_RIGHT = LEFT + (WEEKS - 1) * STEP - 8
+
+FLIGHT_TOP = TOP + 7
+FLIGHT_BOTTOM = TOP + 6 * STEP - 5
+
+
+def clamp(value, minimum, maximum):
+    return max(minimum, min(maximum, value))
+
+
+def create_random_route():
+    """
+    Creates a long, smooth, random-looking flight route.
+
+    The jet starts somewhere inside the graph and travels
+    toward randomly selected points. Points near edges
+    force the jet to turn and continue in another direction.
+    """
+
+    x = random.uniform(
+        FLIGHT_LEFT + 20,
+        FLIGHT_RIGHT - 20
+    )
+
+    y = random.uniform(
+        FLIGHT_TOP + 10,
+        FLIGHT_BOTTOM - 10
+    )
+
+    angle = random.uniform(
+        0,
+        math.pi * 2
+    )
+
+    points = [(x, y)]
+
+    for _ in range(14):
+
+        # Random change of direction.
+        angle += random.uniform(
+            -1.05,
+            1.05
+        )
+
+        # Keep the movement mostly forward.
+        if random.random() < 0.25:
+            angle += random.choice([
+                math.pi / 3,
+                -math.pi / 3
+            ])
+
+        distance = random.uniform(
+            70,
+            125
+        )
+
+        nx = x + math.cos(angle) * distance
+        ny = y + math.sin(angle) * distance
+
+        # Hit the left/right edge.
+        if nx <= FLIGHT_LEFT:
+            nx = FLIGHT_LEFT + 4
+            angle = math.pi - angle
+
+        elif nx >= FLIGHT_RIGHT:
+            nx = FLIGHT_RIGHT - 4
+            angle = math.pi - angle
+
+        # Hit the top/bottom edge.
+        if ny <= FLIGHT_TOP:
+            ny = FLIGHT_TOP + 4
+            angle = -angle
+
+        elif ny >= FLIGHT_BOTTOM:
+            ny = FLIGHT_BOTTOM - 4
+            angle = -angle
+
+        nx = clamp(
+            nx,
+            FLIGHT_LEFT,
+            FLIGHT_RIGHT
+        )
+
+        ny = clamp(
+            ny,
+            FLIGHT_TOP,
+            FLIGHT_BOTTOM
+        )
+
+        x = nx
+        y = ny
+
+        points.append((x, y))
+
+    return points
+
+
+route = create_random_route()
+
+
+def create_smooth_path(points):
+    """
+    Converts random points into a smooth cubic Bézier path.
+    """
+
+    if len(points) < 2:
+        return ""
+
+    path = (
+        f"M {points[0][0]:.2f} "
+        f"{points[0][1]:.2f}"
+    )
+
+    for index in range(1, len(points)):
+
+        x0, y0 = points[index - 1]
+        x1, y1 = points[index]
+
+        dx = x1 - x0
+        dy = y1 - y0
+
+        length = max(
+            math.sqrt(dx * dx + dy * dy),
+            1
+        )
+
+        ux = dx / length
+        uy = dy / length
+
+        control_distance = length * 0.38
+
+        c1x = x0 + ux * control_distance
+        c1y = y0 + uy * control_distance
+
+        c2x = x1 - ux * control_distance
+        c2y = y1 - uy * control_distance
+
+        path += (
+            f" C "
+            f"{c1x:.2f} {c1y:.2f}, "
+            f"{c2x:.2f} {c2y:.2f}, "
+            f"{x1:.2f} {y1:.2f}"
+        )
+
+    return path
+
+
+flight_path = create_smooth_path(route)
+
+
+# =========================================================
+# SVG
 # =========================================================
 
 svg = []
+
 
 svg.append(
     f'''<svg
@@ -267,7 +436,7 @@ for weekday, label in weekday_labels.items():
 
 
 # =========================================================
-# REAL GITHUB CONTRIBUTION CELLS
+# REAL CONTRIBUTION CELLS
 # =========================================================
 
 for week_index, week in enumerate(weeks):
@@ -279,7 +448,6 @@ for week_index, week in enumerate(weeks):
 
         x = LEFT + week_index * STEP
         y = TOP + weekday * STEP
-
 
         if count == 0:
             level = 0
@@ -296,9 +464,7 @@ for week_index, week in enumerate(weeks):
         else:
             level = 4
 
-
         color = COLORS[level]
-
 
         svg.append(
             f'''
@@ -323,11 +489,10 @@ for week_index, week in enumerate(weeks):
 
 
 # =========================================================
-# CONTRIBUTION LEGEND
+# LEGEND
 # =========================================================
 
 footer_y = TOP + 7 * STEP + 25
-
 legend_x = WIDTH - 116
 
 
@@ -377,102 +542,42 @@ More
 
 
 # =========================================================
-# SMOOTH RANDOM-LOOKING JET FLIGHT
+# INVISIBLE RANDOM FLIGHT PATH
 # =========================================================
 #
-# The jet moves through the contribution grid using a
-# smooth Bézier path.
+# IMPORTANT:
+# This path is intentionally NOT rendered.
 #
-# It changes direction naturally:
+# It is only used by animateMotion.
 #
-#       ✈
-#         \
-#          \
-#           ✈
-#          /
-#       ✈
-#        \
-#         \
-#          ✈
+# Every time the Python script runs, a different route
+# is generated.
 #
-# The path itself is NOT displayed.
-#
-# rotate="auto" makes the jet nose follow the direction
-# of travel.
-#
-# There is no 360-degree independent rotation.
-#
-
-
-flight_left = LEFT + 10
-flight_right = LEFT + (WEEKS - 1) * STEP - 10
-
-flight_top = TOP + 10
-flight_bottom = TOP + 6 * STEP - 5
-
-
-# ---------------------------------------------------------
-# RANDOM-LOOKING SMOOTH FLIGHT PATH
-# ---------------------------------------------------------
-
-flight_path = (
-    f"M {flight_left} {flight_bottom - 5} "
-
-    f"C "
-    f"{flight_left + 55} {flight_top + 5}, "
-    f"{flight_left + 105} {flight_top + 18}, "
-    f"{flight_left + 145} {flight_top + 8} "
-
-    f"C "
-    f"{flight_left + 185} {flight_top - 2}, "
-    f"{flight_left + 235} {flight_bottom - 8}, "
-    f"{flight_left + 285} {flight_bottom - 18} "
-
-    f"C "
-    f"{flight_left + 330} {flight_bottom - 28}, "
-    f"{flight_left + 375} {flight_top + 8}, "
-    f"{flight_left + 425} {flight_top + 18} "
-
-    f"C "
-    f"{flight_left + 475} {flight_top + 28}, "
-    f"{flight_left + 525} {flight_bottom - 5}, "
-    f"{flight_left + 575} {flight_bottom - 20} "
-
-    f"C "
-    f"{flight_left + 625} {flight_bottom - 35}, "
-    f"{flight_left + 675} {flight_top + 2}, "
-    f"{flight_left + 725} {flight_top + 15} "
-
-    f"C "
-    f"{flight_left + 775} {flight_top + 28}, "
-    f"{flight_right - 35} {flight_bottom - 10}, "
-    f"{flight_right} {flight_top + 25}"
-)
-
-
 # =========================================================
-# MOVING JET
-# =========================================================
+
 
 svg.append(
     f'''
 <g>
 
     <animateMotion
-        dur="24s"
+        dur="28s"
         repeatCount="indefinite"
         rotate="auto"
         path="{flight_path}"/>
 
 
-    <!-- STEALTH JET -->
+    <!-- =================================================
+         STEALTH JET
+         ================================================= -->
+
 
     <g
         transform="scale(0.65)"
         filter="url(#jetGlow)">
 
 
-        <!-- Main stealth body -->
+        <!-- Main body -->
 
         <path
             d="
@@ -566,7 +671,7 @@ svg.append(
 
 
 # =========================================================
-# WRITE SVG FILE
+# WRITE FILE
 # =========================================================
 
 os.makedirs(
@@ -592,4 +697,8 @@ with open(
 print(
     f"Generated contribution calendar for "
     f"{USERNAME}: {total} contributions"
+)
+
+print(
+    "Generated a new random jet flight route."
 )
