@@ -1,8 +1,8 @@
 <div align="center">
 
-<table width="100%">
+<table width="100%" bgcolor="#F5F0E6">
 <tr>
-<td align="center">
+<td>
 
 <br />
 
@@ -15,7 +15,7 @@
 <br />
 
 <a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">
-<img src="https://img.shields.io/badge/LinkedIn-Mohammed%20Maaz-F5F0E6?style=for-the-badge&logo=linkedin&logoColor=5F5749" />
+<img src="https://img.shields.io/badge/LinkedIn-Mohammed%20Maaz-111111?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
 <br />
