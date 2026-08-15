@@ -431,17 +431,19 @@ graph_bottom = TOP + 6 * STEP
 # FLIGHT PATH
 # ---------------------------------------------------------
 
+graph_left = LEFT + 8
+graph_right = LEFT + (WEEKS - 1) * STEP - 8
+
+# Keep the jet centered inside the contribution grid.
+jet_y = TOP + 3 * STEP + 5
+
+# Simple straight flight.
+# No visible path.
+# No random movement.
+# No rotation.
 flight_path = (
-    f"M {graph_left + 5} {graph_bottom - 5} "
-    f"C {graph_left + 90} {graph_top + 8}, "
-    f"{graph_left + 180} {graph_top + 8}, "
-    f"{graph_left + 270} {graph_bottom - 5} "
-    f"C {graph_left + 360} {graph_bottom - 5}, "
-    f"{graph_left + 450} {graph_top + 8}, "
-    f"{graph_left + 540} {graph_top + 8} "
-    f"C {graph_left + 630} {graph_top + 8}, "
-    f"{graph_left + 720} {graph_bottom - 5}, "
-    f"{graph_right - 5} {graph_top + 8}"
+    f"M {graph_left} {jet_y} "
+    f"L {graph_right} {jet_y}"
 )
 
 
