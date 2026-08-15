@@ -1,59 +1,40 @@
 <div align="center">
 
-<table width="100%" bgcolor="#0d1117">
+<table width="100%">
 <tr>
 <td align="center">
 
 <br />
 
-# <font color="#ffffff">MOHAMMED MAAZ</font>
+# MOHAMMED MAAZ
 
-### <font color="#58a6ff">Developer</font> · <font color="#00d9ff">Builder</font> · <font color="#39d353">AI & Cloud Engineer</font>
+### `Developer` · `Builder` · `AI & Cloud Engineer`
 
-<font color="#c9d1d9">
-Building intelligent systems, scalable software, and practical solutions to real-world problems.
-</font>
+**Building intelligent systems, scalable software, and practical solutions to real-world problems.**
 
-<br />
 <br />
 
 <a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">
-<img src="https://img.shields.io/badge/LINKEDIN-MOHAMMED%20MAAZ-111111?style=for-the-badge&logo=linkedin&logoColor=58a6ff" />
+<img src="https://img.shields.io/badge/LinkedIn-Mohammed%20Maaz-F5F0E6?style=for-the-badge&logo=linkedin&logoColor=5F5749" />
 </a>
 
 <br />
 <br />
 
-</td>
-</tr>
-
-<tr>
-<td>
-
 ---
 
-## <font color="#58a6ff">01</font> — <font color="#ffffff">WHO AM I?</font>
+## `01` — WHO AM I?
 
-<div align="center">
+I enjoy turning complex ideas into **useful, reliable, and intelligent software**.
 
-<font color="#c9d1d9">
-
-I enjoy turning complex ideas into **useful, reliable, and intelligent software.**
-
-My work sits at the intersection of **AI, Cloud Infrastructure, and Software Engineering.**
-
-</font>
-
-</div>
-
-<br />
+My work sits at the intersection of:
 
 <table width="100%">
 <tr>
 
 <td width="33%" align="center">
 
-### <font color="#00d9ff">AI</font>
+### AI
 
 ```text
 AI
