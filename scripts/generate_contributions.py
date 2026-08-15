@@ -163,6 +163,7 @@ height="{HEIGHT}">
 
 </defs>
 
+
 <style>
 
 text {{
@@ -176,11 +177,6 @@ text {{
 .header {{
     fill: #24292f;
     font-size: 14px;
-}}
-
-.settings {{
-    fill: #57606a;
-    font-size: 11px;
 }}
 
 .month {{
@@ -223,21 +219,6 @@ text {{
 {total} contributions in the last year
 
 </text>
-
-
-<text
-    class="settings"
-    x="{WIDTH - 125}"
-    y="28">
-
-Contribution settings
-
-</text>
-
-
-<path
-    d="M {WIDTH - 13} 24 l 5 0 l -2.5 3 z"
-    fill="#57606a"/>
 
 '''
 )
@@ -369,27 +350,25 @@ for week_index, week in enumerate(weeks):
 
 
 # ---------------------------------------------------------
-# FOOTER / LEGEND
+# LEGEND ONLY
 # ---------------------------------------------------------
+# Removed:
+# - "Learn how we count contributions"
+# - "Contribution settings"
+#
+# The legend remains because it represents the real
+# contribution intensity levels.
 
 footer_y = TOP + 7 * STEP + 25
+
+legend_x = WIDTH - 116
 
 
 svg.append(
     f'''
 <text
     class="footer"
-    x="55"
-    y="{footer_y}">
-
-Learn how we count contributions
-
-</text>
-
-
-<text
-    class="footer"
-    x="{WIDTH - 145}"
+    x="{legend_x - 30}"
     y="{footer_y}">
 
 Less
@@ -397,9 +376,6 @@ Less
 </text>
 '''
 )
-
-
-legend_x = WIDTH - 116
 
 
 for index, color in enumerate(COLORS):
@@ -434,15 +410,15 @@ More
 
 
 # ---------------------------------------------------------
-# CLOSE SVG
+# MOVING STEALTH JET
 # ---------------------------------------------------------
-
-# ---------------------------------------------------------
-# MOVING STEALTH JET — INSIDE REAL CONTRIBUTION GRAPH
-# ---------------------------------------------------------
-
-# Keep the jet INSIDE the contribution grid.
-# The contribution cells above remain REAL GitHub data.
+# The jet travels INSIDE the actual contribution calendar.
+#
+# The contribution cells above are NOT changed.
+# They continue to represent real GitHub contribution data.
+#
+# rotate="auto" makes the jet nose follow the flight path.
+# There is NO 360-degree rotation.
 
 graph_left = LEFT
 graph_right = LEFT + (WEEKS - 1) * STEP
@@ -480,7 +456,7 @@ svg.append(
     fill="none"
     stroke="url(#flightGradient)"
     stroke-width="1"
-    stroke-opacity="0.15"
+    stroke-opacity="0.12"
     stroke-dasharray="3 6"/>
 '''
 )
@@ -492,14 +468,23 @@ svg.append(
 
 svg.append(
     f'''
-<g>
+<g
+    filter="url(#planeGlow)">
 
     <animateMotion
         dur="14s"
         repeatCount="indefinite"
         rotate="auto"
-        path="{flight_path}"
-    />
+        path="{flight_path}"/>
+
+
+    <!--
+        Stealth flying-wing jet.
+
+        The nose points toward the right.
+        animateMotion + rotate="auto"
+        makes the nose follow the flight path.
+    -->
 
     <g transform="scale(0.65)">
 
@@ -521,8 +506,8 @@ svg.append(
             "
             fill="#1f2937"
             stroke="#111827"
-            stroke-width="1"
-        />
+            stroke-width="1"/>
+
 
         <!-- Upper wing -->
 
@@ -536,8 +521,8 @@ svg.append(
             "
             fill="#374151"
             stroke="#111827"
-            stroke-width="1"
-        />
+            stroke-width="1"/>
+
 
         <!-- Lower wing -->
 
@@ -551,8 +536,8 @@ svg.append(
             "
             fill="#374151"
             stroke="#111827"
-            stroke-width="1"
-        />
+            stroke-width="1"/>
+
 
         <!-- Cockpit -->
 
@@ -564,8 +549,8 @@ svg.append(
                 L 3 0
                 Z
             "
-            fill="#38bdf8"
-        />
+            fill="#38bdf8"/>
+
 
         <!-- Engine glow -->
 
@@ -576,14 +561,14 @@ svg.append(
                 L -25 2
                 Z
             "
-            fill="#22d3ee"
-        />
+            fill="#22d3ee"/>
 
     </g>
 
 </g>
 '''
 )
+
 
 # ---------------------------------------------------------
 # CLOSE SVG
