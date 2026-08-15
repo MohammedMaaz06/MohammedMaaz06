@@ -1,23 +1,24 @@
-<table width="100%" bgcolor="#0D1117">
+<div align="center">
+
+<table width="100%" bgcolor="#0d1117">
 <tr>
 <td align="center">
 
 <br />
 
-# <font color="#F0F6FC">MOHAMMED MAAZ</font>
+# <font color="#ffffff">MOHAMMED MAAZ</font>
 
-### <font color="#00D9FF">Developer</font> · <font color="#8B5CF6">Builder</font> · <font color="#22C55E">AI & Cloud Engineer</font>
+### <font color="#58a6ff">Developer</font> · <font color="#00d9ff">Builder</font> · <font color="#39d353">AI & Cloud Engineer</font>
 
-<p>
-<font color="#8B949E">
+<font color="#c9d1d9">
 Building intelligent systems, scalable software, and practical solutions to real-world problems.
 </font>
-</p>
 
+<br />
 <br />
 
 <a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">
-<img src="https://img.shields.io/badge/LINKEDIN-00D9FF?style=for-the-badge&logo=linkedin&logoColor=0D1117" />
+<img src="https://img.shields.io/badge/LINKEDIN-MOHAMMED%20MAAZ-111111?style=for-the-badge&logo=linkedin&logoColor=58a6ff" />
 </a>
 
 <br />
@@ -25,30 +26,37 @@ Building intelligent systems, scalable software, and practical solutions to real
 
 </td>
 </tr>
-</table>
 
-<table width="100%" bgcolor="#0D1117">
 <tr>
 <td>
 
-## <font color="#00D9FF">01</font> — <font color="#F0F6FC">ENGINEERING</font>
+---
 
-<p align="center">
-<font color="#8B949E">
-I enjoy turning complex ideas into <b>useful, reliable, and intelligent software.</b>
+## <font color="#58a6ff">01</font> — <font color="#ffffff">WHO AM I?</font>
+
+<div align="center">
+
+<font color="#c9d1d9">
+
+I enjoy turning complex ideas into **useful, reliable, and intelligent software.**
+
+My work sits at the intersection of **AI, Cloud Infrastructure, and Software Engineering.**
+
 </font>
-</p>
+
+</div>
 
 <br />
 
-<table width="100%" bgcolor="#161B22">
+<table width="100%">
 <tr>
 
-<td width="33%" valign="top">
+<td width="33%" align="center">
 
-### <font color="#00D9FF">AI</font>
+### <font color="#00d9ff">AI</font>
 
 ```text
+AI
 ├── AI Agents
 ├── Machine Learning
 ├── Deep Learning
