@@ -60,9 +60,7 @@ text {
 </style>
 
 
-<!-- =====================================================
-     CARD
-     ===================================================== -->
+<!-- CARD -->
 
 <rect
     x="1"
@@ -74,16 +72,14 @@ text {
     stroke="#d0d7de"/>
 
 
-<!-- =====================================================
-     HEADER
-     ===================================================== -->
+<!-- HEADER -->
 
 <text
     class="header"
     x="18"
     y="28">
 
-94 contributions in the last year
+78 contributions in the last year
 
 </text>
 
@@ -6529,12 +6525,12 @@ Fri
     height="11"
     rx="2"
     ry="2"
-    fill="#216e39"
+    fill="#30a14e"
     stroke="#ffffff"
     stroke-width="1">
 
     <title>
-        2026-08-15: 22 contributions
+        2026-08-15: 6 contributions
     </title>
 
 </rect>
@@ -6597,50 +6593,23 @@ More
 
 </text>
 
-<g
-    filter="url(#jetGlow)">
+<g>
 
-    <!--
-        Smooth left -> right -> left animation.
-
-        The jet remains completely stable.
-        The jet does NOT rotate.
-    -->
-
-    <animateTransform
-        attributeName="transform"
-        attributeType="XML"
-        type="translate"
-
-        values="
-            67 105;
-            771 105;
-            67 105
-        "
-
-        dur="20s"
+    <animateMotion
+        dur="24s"
         repeatCount="indefinite"
-
-        calcMode="spline"
-
-        keyTimes="0;0.5;1"
-
-        keySplines="
-            0.42 0 0.58 1;
-            0.42 0 0.58 1
-        "
-    />
+        rotate="auto"
+        path="M 65 132 C 120 73, 170 86, 210 76 C 250 66, 300 129, 350 119 C 395 109, 440 76, 490 86 C 540 96, 590 132, 640 117 C 690 102, 740 70, 790 83 C 840 96, 738 127, 773 93"/>
 
 
-    <!-- =================================================
-         STEALTH JET
-         ================================================= -->
+    <!-- STEALTH JET -->
 
     <g
-        transform="scale(0.65)">
+        transform="scale(0.65)"
+        filter="url(#jetGlow)">
 
 
-        <!-- Main body -->
+        <!-- Main stealth body -->
 
         <path
             d="
