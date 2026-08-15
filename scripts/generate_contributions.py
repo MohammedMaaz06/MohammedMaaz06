@@ -434,37 +434,38 @@ More
 
 
 # ---------------------------------------------------------
-# MOVING STEALTH JET — INSIDE CONTRIBUTION GRAPH
+# CLOSE SVG
 # ---------------------------------------------------------
 
-# Contribution grid boundaries
+# ---------------------------------------------------------
+# MOVING STEALTH JET — INSIDE REAL CONTRIBUTION GRAPH
+# ---------------------------------------------------------
+
+# Keep the jet INSIDE the contribution grid.
+# The contribution cells above remain REAL GitHub data.
 
 graph_left = LEFT
-graph_right = LEFT + (WEEKS - 1) * STEP + CELL
+graph_right = LEFT + (WEEKS - 1) * STEP
 
 graph_top = TOP
-graph_bottom = TOP + 6 * STEP + CELL
+graph_bottom = TOP + 6 * STEP
 
 
 # ---------------------------------------------------------
 # FLIGHT PATH
 # ---------------------------------------------------------
-# The jet travels through the contribution calendar.
-# It does NOT leave the graph.
 
 flight_path = (
-    f"M {graph_left + 8} {graph_bottom - 8} "
-    f"C {graph_left + 80} {graph_top + 5}, "
-    f"{graph_left + 160} {graph_top + 5}, "
-    f"{graph_left + 230} {graph_bottom - 8} "
-
-    f"C {graph_left + 310} {graph_bottom - 8}, "
-    f"{graph_left + 390} {graph_top + 5}, "
-    f"{graph_left + 470} {graph_top + 5} "
-
-    f"C {graph_left + 550} {graph_top + 5}, "
-    f"{graph_left + 630} {graph_bottom - 8}, "
-    f"{graph_right - 8} {graph_top + 8}"
+    f"M {graph_left + 5} {graph_bottom - 5} "
+    f"C {graph_left + 90} {graph_top + 8}, "
+    f"{graph_left + 180} {graph_top + 8}, "
+    f"{graph_left + 270} {graph_bottom - 5} "
+    f"C {graph_left + 360} {graph_bottom - 5}, "
+    f"{graph_left + 450} {graph_top + 8}, "
+    f"{graph_left + 540} {graph_top + 8} "
+    f"C {graph_left + 630} {graph_top + 8}, "
+    f"{graph_left + 720} {graph_bottom - 5}, "
+    f"{graph_right - 5} {graph_top + 8}"
 )
 
 
@@ -478,9 +479,9 @@ svg.append(
     d="{flight_path}"
     fill="none"
     stroke="url(#flightGradient)"
-    stroke-width="1.5"
-    stroke-opacity="0.20"
-    stroke-dasharray="4 6"/>
+    stroke-width="1"
+    stroke-opacity="0.15"
+    stroke-dasharray="3 6"/>
 '''
 )
 
@@ -491,138 +492,98 @@ svg.append(
 
 svg.append(
     f'''
-<g filter="url(#planeGlow)">
+<g>
 
-    <!-- Jet follows the path.
-         rotate="auto" keeps the NOSE aligned
-         with the direction of travel. -->
+    <animateMotion
+        dur="14s"
+        repeatCount="indefinite"
+        rotate="auto"
+        path="{flight_path}"
+    />
 
-    <g>
+    <g transform="scale(0.65)">
 
-        <animateMotion
-            dur="12s"
-            repeatCount="indefinite"
-            rotate="auto"
-            path="{flight_path}"
+        <!-- Main stealth body -->
+
+        <path
+            d="
+                M 24 0
+                L 8 -4
+                L -8 -13
+                L -34 -9
+                L -15 -2
+                L -38 0
+                L -15 2
+                L -34 9
+                L -8 13
+                L 8 4
+                Z
+            "
+            fill="#1f2937"
+            stroke="#111827"
+            stroke-width="1"
         />
 
+        <!-- Upper wing -->
 
-        <!--
-        B-2 / flying-wing inspired silhouette
+        <path
+            d="
+                M 8 -2
+                L -18 -18
+                L -38 -17
+                L -14 -1
+                Z
+            "
+            fill="#374151"
+            stroke="#111827"
+            stroke-width="1"
+        />
 
-        The jet itself NEVER spins.
-        It only turns naturally with the flight path.
-        -->
+        <!-- Lower wing -->
 
-        <g transform="scale(0.95)">
+        <path
+            d="
+                M 8 2
+                L -18 18
+                L -38 17
+                L -14 1
+                Z
+            "
+            fill="#374151"
+            stroke="#111827"
+            stroke-width="1"
+        />
 
-            <!-- Main flying-wing body -->
+        <!-- Cockpit -->
 
-            <path
-                d="
-                    M -20 2
+        <path
+            d="
+                M 8 -3
+                L 19 0
+                L 8 3
+                L 3 0
+                Z
+            "
+            fill="#38bdf8"
+        />
 
-                    L -8 -2
-                    L -2 -7
-                    L 4 -10
-                    L 9 -8
-                    L 18 -3
-                    L 27 0
+        <!-- Engine glow -->
 
-                    L 18 3
-                    L 9 8
-                    L 4 10
-                    L -2 7
-                    L -8 2
-
-                    Z
-                "
-                fill="#111827"
-                stroke="#075985"
-                stroke-width="0.9"
-            />
-
-
-            <!-- Left swept wing -->
-
-            <path
-                d="
-                    M -2 -2
-                    L -19 -10
-                    L -31 -7
-                    L -8 1
-                    Z
-                "
-                fill="#1f2937"
-                stroke="#0e7490"
-                stroke-width="0.6"
-            />
-
-
-            <!-- Right swept wing -->
-
-            <path
-                d="
-                    M -2 2
-                    L -19 10
-                    L -31 7
-                    L -8 -1
-                    Z
-                "
-                fill="#1f2937"
-                stroke="#0e7490"
-                stroke-width="0.6"
-            />
-
-
-            <!-- Central stealth body -->
-
-            <path
-                d="
-                    M -12 0
-                    L 8 -5
-                    L 22 0
-                    L 8 5
-                    Z
-                "
-                fill="#374151"
-            />
-
-
-            <!-- Cockpit -->
-
-            <path
-                d="
-                    M 7 -2
-                    L 15 0
-                    L 7 2
-                    L 4 0
-                    Z
-                "
-                fill="#38bdf8"
-            />
-
-
-            <!-- Engine glow -->
-
-            <path
-                d="
-                    M -23 -2
-                    L -31 0
-                    L -23 2
-                    Z
-                "
-                fill="#22d3ee"
-            />
-
-        </g>
+        <path
+            d="
+                M -25 -2
+                L -39 0
+                L -25 2
+                Z
+            "
+            fill="#22d3ee"
+        />
 
     </g>
 
 </g>
 '''
 )
-
 
 # ---------------------------------------------------------
 # CLOSE SVG
