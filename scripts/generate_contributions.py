@@ -91,7 +91,7 @@ HEIGHT = 215
 
 
 # =========================================================
-# GITHUB CONTRIBUTION COLORS
+# CONTRIBUTION COLORS
 # =========================================================
 
 COLORS = [
@@ -172,9 +172,7 @@ text {{
 </style>
 
 
-<!-- =====================================================
-     CARD
-     ===================================================== -->
+<!-- CARD -->
 
 <rect
     x="1"
@@ -186,9 +184,7 @@ text {{
     stroke="#d0d7de"/>
 
 
-<!-- =====================================================
-     HEADER
-     ===================================================== -->
+<!-- HEADER -->
 
 <text
     class="header"
@@ -381,89 +377,102 @@ More
 
 
 # =========================================================
-# SMOOTH JET ANIMATION
+# SMOOTH RANDOM-LOOKING JET FLIGHT
 # =========================================================
 #
-# The jet moves directly INSIDE the real contribution grid.
+# The jet moves through the contribution grid using a
+# smooth Bézier path.
 #
-# Movement:
+# It changes direction naturally:
 #
-#       START
-#         ✈  -------------------->
+#       ✈
+#         \
+#          \
+#           ✈
+#          /
+#       ✈
+#        \
+#         \
+#          ✈
 #
-#                              END
-#                               ✈
+# The path itself is NOT displayed.
 #
-# Then smoothly returns:
+# rotate="auto" makes the jet nose follow the direction
+# of travel.
 #
-#                              ✈
-#                         <----
-#
-#         ✈
-#
-# No flight trail.
-# No random movement.
-# No 360 degree rotation.
-# No animateMotion.
+# There is no 360-degree independent rotation.
 #
 
 
-jet_start_x = LEFT + 12
-jet_end_x = LEFT + (WEEKS - 1) * STEP - 12
+flight_left = LEFT + 10
+flight_right = LEFT + (WEEKS - 1) * STEP - 10
 
-jet_y = TOP + 3 * STEP + 5
+flight_top = TOP + 10
+flight_bottom = TOP + 6 * STEP - 5
+
+
+# ---------------------------------------------------------
+# RANDOM-LOOKING SMOOTH FLIGHT PATH
+# ---------------------------------------------------------
+
+flight_path = (
+    f"M {flight_left} {flight_bottom - 5} "
+
+    f"C "
+    f"{flight_left + 55} {flight_top + 5}, "
+    f"{flight_left + 105} {flight_top + 18}, "
+    f"{flight_left + 145} {flight_top + 8} "
+
+    f"C "
+    f"{flight_left + 185} {flight_top - 2}, "
+    f"{flight_left + 235} {flight_bottom - 8}, "
+    f"{flight_left + 285} {flight_bottom - 18} "
+
+    f"C "
+    f"{flight_left + 330} {flight_bottom - 28}, "
+    f"{flight_left + 375} {flight_top + 8}, "
+    f"{flight_left + 425} {flight_top + 18} "
+
+    f"C "
+    f"{flight_left + 475} {flight_top + 28}, "
+    f"{flight_left + 525} {flight_bottom - 5}, "
+    f"{flight_left + 575} {flight_bottom - 20} "
+
+    f"C "
+    f"{flight_left + 625} {flight_bottom - 35}, "
+    f"{flight_left + 675} {flight_top + 2}, "
+    f"{flight_left + 725} {flight_top + 15} "
+
+    f"C "
+    f"{flight_left + 775} {flight_top + 28}, "
+    f"{flight_right - 35} {flight_bottom - 10}, "
+    f"{flight_right} {flight_top + 25}"
+)
 
 
 # =========================================================
-# JET
+# MOVING JET
 # =========================================================
 
 svg.append(
     f'''
-<g
-    filter="url(#jetGlow)">
+<g>
 
-    <!--
-        Smooth left -> right -> left animation.
-
-        The jet remains completely stable.
-        The jet does NOT rotate.
-    -->
-
-    <animateTransform
-        attributeName="transform"
-        attributeType="XML"
-        type="translate"
-
-        values="
-            {jet_start_x} {jet_y};
-            {jet_end_x} {jet_y};
-            {jet_start_x} {jet_y}
-        "
-
-        dur="20s"
+    <animateMotion
+        dur="24s"
         repeatCount="indefinite"
-
-        calcMode="spline"
-
-        keyTimes="0;0.5;1"
-
-        keySplines="
-            0.42 0 0.58 1;
-            0.42 0 0.58 1
-        "
-    />
+        rotate="auto"
+        path="{flight_path}"/>
 
 
-    <!-- =================================================
-         STEALTH JET
-         ================================================= -->
+    <!-- STEALTH JET -->
 
     <g
-        transform="scale(0.65)">
+        transform="scale(0.65)"
+        filter="url(#jetGlow)">
 
 
-        <!-- Main body -->
+        <!-- Main stealth body -->
 
         <path
             d="
@@ -557,7 +566,7 @@ svg.append(
 
 
 # =========================================================
-# WRITE GENERATED SVG
+# WRITE SVG FILE
 # =========================================================
 
 os.makedirs(
