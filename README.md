@@ -212,17 +212,16 @@ I build to **understand systems, solve problems, and become a better engineer.**
 </div>
 
 
-<h2><code>07</code> — CONTRIBUTIONS</h2>
+## `07` — CONTRIBUTIONS
 
-<div align="center">
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/MohammedMaaz06/MohammedMaaz06/output/contributions.svg"
+    alt="Mohammed Maaz GitHub Contributions"
+    width="100%"
+  />
+</p>
 
-<img
-  src="https://raw.githubusercontent.com/MohammedMaaz06/MohammedMaaz06/output/contributions.svg"
-  alt="Mohammed Maaz GitHub Contribution Calendar"
-  width="100%"
-/>
-
-</div>
 <hr />
 
 <h2><code>08</code> — CONNECT</h2>
