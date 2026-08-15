@@ -216,12 +216,11 @@ I build to **understand systems, solve problems, and become a better engineer.**
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/MohammedMaaz06/MohammedMaaz06/output/contributions.svg"
+    src="https://raw.githubusercontent.com/MohammedMaaz06/MohammedMaaz06/main/assets/contributions.svg"
     alt="Mohammed Maaz GitHub Contributions"
     width="100%"
   />
 </p>
-
 <hr />
 
 <h2><code>08</code> — CONNECT</h2>
