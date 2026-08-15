@@ -214,8 +214,6 @@ I build to **understand systems, solve problems, and become a better engineer.**
 
 ## `07` — CONTRIBUTIONS
 
-## `07` — CONTRIBUTIONS
-
 <p align="center">
   <img
     src="./assets/contributions.svg"
