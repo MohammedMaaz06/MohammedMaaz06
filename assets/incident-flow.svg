@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="180" viewBox="0 0 960 180" role="img" aria-labelledby="title desc">
+  <title id="title">From infrastructure alert to incident notification</title>
+  <desc id="desc">An alert reaches a triage agent. The agent uses MCP tools for context and passes its findings to notification.</desc>
+  <defs>
+    <pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".85" fill="#476257"/>
+    </pattern>
+  </defs>
+  <style>
+    .label { fill: #fff2de; font: 600 21px system-ui,sans-serif; }
+    .small { fill: #b6c6b6; font: 15px system-ui,sans-serif; }
+    .wire { fill: none; stroke: #758e80; stroke-width: 2; }
+    .pulse { fill: none; stroke: #ffc585; stroke-width: 3; stroke-linecap: round;
+      stroke-dasharray: 8 92; animation: travel 3.8s linear infinite; }
+    @keyframes travel { to { stroke-dashoffset: -100; } }
+    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } }
+  </style>
+  <rect width="960" height="180" rx="16" fill="#152822"/>
+  <rect width="960" height="180" rx="16" fill="url(#grid)"/>
+  <g class="wire">
+    <path d="M214 71H361 M599 71H746 M480 96V118"/>
+  </g>
+  <g class="pulse">
+    <path pathLength="100" d="M214 71H361"/>
+    <path pathLength="100" d="M599 71H746"/>
+  </g>
+  <g fill="#213a30" stroke="#768d79">
+    <rect x="34" y="44" width="180" height="54" rx="27"/>
+    <rect x="361" y="44" width="238" height="54" rx="10" stroke="#e9ae73"/>
+    <rect x="746" y="44" width="180" height="54" rx="27"/>
+    <rect x="399" y="118" width="162" height="38" rx="19"/>
+  </g>
+  <g text-anchor="middle">
+    <g class="label"><text x="124" y="78">Monitor</text><text x="480" y="78">Triage agent</text><text x="836" y="78">Notify</text></g>
+    <g class="small"><text x="287" y="60">alert</text><text x="672" y="60">findings</text><text x="480" y="143">MCP tools</text></g>
+  </g>
+</svg>
