@@ -1,251 +1,100 @@
-<div align="center">
+<h1 align="center">Mohammed Maaz</h1>
 
-# MOHAMMED MAAZ
-
-### `Developer` · `Builder` · `AI & Cloud Engineer`
-
-**Building intelligent systems, scalable software, and practical solutions to real-world problems.**
-
-<br />
-
-<a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">
-  <img src="https://img.shields.io/badge/LINKEDIN-111111?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<br />
-
----
-
-## `01` — WHO AM I?
-
-I enjoy turning complex ideas into **useful, reliable, and intelligent software**.
-
-My work sits at the intersection of:
-
-```text
-AI
-├── AI Agents
-├── Machine Learning
-├── Deep Learning
-└── Automation
-
-Cloud
-├── Containers
-├── Microservices
-├── Infrastructure
-└── Distributed Systems
-
-Software
-├── Backend Engineering
-├── Full-Stack Development
-├── APIs
-└── System Design
-```
-
-> **Think deeply. Build simply. Ship consistently.**
-
----
-
-## `02` — CURRENTLY BUILDING
-
-```text
-╭──────────────────────────────────────────────────────────────╮
-│                                                              │
-│   ◉ AI SYSTEMS                                               │
-│     Building intelligent agents and automation workflows     │
-│                                                              │
-│   ◉ CLOUD INFRASTRUCTURE                                     │
-│     Exploring distributed systems and container platforms    │
-│                                                              │
-│   ◉ REAL-WORLD PRODUCTS                                      │
-│     Turning public problems into practical software          │
-│                                                              │
-│   ◉ ENGINEERING                                               │
-│     Learning by building, breaking, fixing, and shipping      │
-│                                                              │
-╰──────────────────────────────────────────────────────────────╯
-```
-
----
-
-## `03` — TECH STACK
-
-### Languages
-
-<p>
-<img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=3776AB" />
-<img src="https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-<img src="https://img.shields.io/badge/TypeScript-111111?style=for-the-badge&logo=typescript&logoColor=3178C6" />
-<img src="https://img.shields.io/badge/Go-111111?style=for-the-badge&logo=go&logoColor=00ADD8" />
-<img src="https://img.shields.io/badge/SQL-111111?style=for-the-badge&logo=postgresql&logoColor=4169E1" />
+<p align="center">
+  <strong>AI &amp; Cloud Engineer</strong><br>
+  Agentic AI · Machine Learning · Distributed Systems
 </p>
 
-### AI / Machine Learning
-
-<p>
-<img src="https://img.shields.io/badge/Machine%20Learning-111111?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Deep%20Learning-111111?style=for-the-badge" />
-<img src="https://img.shields.io/badge/AI%20Agents-111111?style=for-the-badge" />
-<img src="https://img.shields.io/badge/LangChain-111111?style=for-the-badge&logo=langchain&logoColor=1C3C3C" />
-<img src="https://img.shields.io/badge/LangGraph-111111?style=for-the-badge" />
-<img src="https://img.shields.io/badge/OpenAI-111111?style=for-the-badge&logo=openai&logoColor=white" />
-</p>
-
-### Backend / Frontend
-
-<p>
-<img src="https://img.shields.io/badge/FastAPI-111111?style=for-the-badge&logo=fastapi&logoColor=009688" />
-<img src="https://img.shields.io/badge/Node.js-111111?style=for-the-badge&logo=node.js&logoColor=339933" />
-<img src="https://img.shields.io/badge/Express.js-111111?style=for-the-badge&logo=express&logoColor=white" />
-<img src="https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=next.js&logoColor=white" />
-</p>
-
-### Cloud / Infrastructure
-
-<p>
-<img src="https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=2496ED" />
-<img src="https://img.shields.io/badge/Kubernetes-111111?style=for-the-badge&logo=kubernetes&logoColor=326CE5" />
-<img src="https://img.shields.io/badge/Linux-111111?style=for-the-badge&logo=linux&logoColor=FCC624" />
-<img src="https://img.shields.io/badge/GitHub%20Actions-111111?style=for-the-badge&logo=github-actions&logoColor=2088FF" />
-</p>
-
-### Databases & Tools
-
-<p>
-<img src="https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=4169E1" />
-<img src="https://img.shields.io/badge/MongoDB-111111?style=for-the-badge&logo=mongodb&logoColor=47A248" />
-<img src="https://img.shields.io/badge/Redis-111111?style=for-the-badge&logo=redis&logoColor=DC382D" />
-<img src="https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=F05032" />
-<img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" />
+<p align="center">
+  <a href="https://github.com/MohammedMaaz06/compute-control-plane"><strong>Explore my Go project ↗</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://mohammedmaazkara.vercel.app/">Portfolio</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">LinkedIn</a>
 </p>
 
 ---
 
-## `04` — SELECTED BUILDS
+I’m a final-year Computer Science student specializing in AI and Machine Learning. I build infrastructure tools in **Go** and agent workflows in **Python**. Two questions shape my work: how does a service keep track of what it runs, and how does an AI agent decide which tool to call next?
 
-<table>
-<tr>
-<td width="50%" valign="top">
+## Featured build
 
-### ⚡ Compute Control Plane
+### [Compute Control Plane ↗](https://github.com/MohammedMaaz06/compute-control-plane)
 
-A Go-based compute orchestration platform for managing container workloads, lifecycle operations, persistence, and telemetry.
+A Go platform for managing container workloads. It brings container lifecycle operations, persistent state, and telemetry into one control plane, with REST and gRPC interfaces.
 
-**Go · Docker · PostgreSQL · REST · gRPC**
+| Inside the project | Engineering focus |
+| --- | --- |
+| **Workload lifecycle** | Managing containers through Docker |
+| **Persistent state** | Keeping workload records in PostgreSQL |
+| **Service interfaces** | Exposing control-plane operations through REST and gRPC |
+| **Telemetry** | Making workload behavior visible during operation |
 
-[→ Explore Repository](https://github.com/MohammedMaaz06/compute-control-plane)
+**Built with** &nbsp; `Go` `Docker` `PostgreSQL` `REST` `gRPC`
 
-</td>
+## AI projects
 
-<td width="50%" valign="top">
+### MCP Ops Assistant
 
-### 🤖 MCP Ops Assistant
+An infrastructure operations assistant that coordinates agents with **LangGraph** and connects them to tools through the **Model Context Protocol**. The workflow brings monitoring, incident triage, and notification into a single process.
 
-An AI-powered operations assistant designed around agents, MCP tools, orchestration, and infrastructure workflows.
+`Python` `FastAPI` `LangGraph` `MCP`
 
-**Python · FastAPI · LangGraph · MCP · AI Agents**
+### HealOps AI
 
-[→ Explore GitHub](https://github.com/MohammedMaaz06)
+An exploration of how AI agents can help engineers investigate infrastructure issues and automate recurring operational work.
 
-</td>
-</tr>
+`AI agents` `Cloud infrastructure` `Automation`
 
-<tr>
-<td width="50%" valign="top">
+### AI Interview Coach
 
-### 🧠 HealOps AI
+A full-stack application for developers practicing technical interviews. It brings AI-assisted interview practice into a dedicated preparation workflow.
 
-AI-driven infrastructure operations focused on intelligent analysis, automation, and operational workflows.
+`Python` `AI` `Full-stack development`
 
-**AI · Automation · Cloud · Agents**
+## Engineering toolkit
 
-[→ Explore GitHub](https://github.com/MohammedMaaz06)
+<details>
+<summary><strong>Languages &amp; application development</strong></summary>
 
-</td>
+| Area | Tools |
+| --- | --- |
+| Languages | Go, Python, TypeScript, JavaScript, SQL |
+| Backend | FastAPI, Node.js, Express, REST, gRPC |
+| Frontend | React, Next.js |
 
-<td width="50%" valign="top">
+</details>
 
-### 🎯 AI Interview Coach
+<details>
+<summary><strong>AI &amp; machine learning</strong></summary>
 
-An intelligent platform designed to help developers practice interviews and improve their technical preparation.
+| Area | Tools and methods |
+| --- | --- |
+| Agent orchestration | LangGraph, LangChain |
+| Tool integration | Model Context Protocol, OpenAI API |
+| Machine learning | Feature engineering, model training, evaluation |
 
-**AI · Python · Full Stack**
+</details>
 
-[→ Explore GitHub](https://github.com/MohammedMaaz06)
+<details>
+<summary><strong>Infrastructure &amp; data</strong></summary>
 
-</td>
-</tr>
-</table>
+| Area | Tools |
+| --- | --- |
+| Containers | Docker, Kubernetes |
+| Development and delivery | Linux, Git, GitHub Actions |
+| Data systems | PostgreSQL, MongoDB, Redis |
 
----
-
-## `05` — ENGINEERING MINDSET
-
-```text
-PROBLEM
-   ↓
-UNDERSTAND
-   ↓
-DESIGN
-   ↓
-BUILD
-   ↓
-TEST
-   ↓
-SHIP
-   ↓
-IMPROVE
-   ↺
-```
-
-I don't build projects just to collect technologies.
-
-I build to **understand systems, solve problems, and become a better engineer.**
+</details>
 
 ---
 
-06 — GITHUB
+<p align="center">
+  <strong>Open to engineering roles in AI systems, backend development, and cloud infrastructure.</strong>
+</p>
 
-<div align="center">
-
-<img src="https://github-readme-streak-stats-eight.vercel.app/?user=MohammedMaaz06&theme=transparent&hide_border=true" />
-
-</div>
-
-
-## `07` — CONTRIBUTIONS
-
-<div align="center">
-
-<img
-  src="./assets/contributions.svg"
-  width="100%"
-  alt="Mohammed Maaz GitHub Contributions"
-/>
-
-</div>
-
----
-
-<h2><code>08</code> — CONNECT</h2>
-
-<div align="center">
-
-<h3>Let's build something meaningful.</h3>
-
-<a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">
-  <img src="https://img.shields.io/badge/LINKEDIN-111111?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<br />
-<br />
-
-<code>BUILD • LEARN • SHIP • REPEAT</code>
-
-<br />
-<br />
-
-<sub>© Mohammed Maaz</sub>
-
-</div>
+<p align="center">
+  <a href="https://github.com/MohammedMaaz06?tab=repositories">Browse repositories</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">Connect on LinkedIn ↗</a>
+</p>
