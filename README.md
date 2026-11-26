@@ -1,38 +1,59 @@
-<img src="./assets/landscape.gif" width="100%" alt="Mohammed Maaz · AI systems and cloud engineering. Two photographic prints of a mountain lake and a forest tilt above a drafting grid.">
+<img src="./assets/landscape.gif" width="100%" alt="Mohammed Maaz — AI systems and cloud engineering. Mountain and forest photographs tilt above a drafting grid.">
 
 <p align="center">
-  <a href="https://mohammedmaazkara.vercel.app/"><strong>Portfolio ↗</strong></a>
-  &nbsp; · &nbsp;
-  <a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219"><strong>LinkedIn ↗</strong></a>
+  <a href="#selected-work">Selected work</a> &nbsp;·&nbsp;
+  <a href="#toolkit">Toolkit</a> &nbsp;·&nbsp;
+  <a href="https://mohammedmaazkara.vercel.app/">Portfolio ↗</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/mohammed-maaz-6129b2219">LinkedIn ↗</a>
 </p>
 
-## Engineering interests
+I’m **Mohammed Maaz**, a final-year Computer Science student specializing in AI and machine learning in Bhatkal, India. I like engineering questions that fit in one sentence but take a working system to answer. One I’m exploring now: **when an infrastructure alert arrives, what does an agent need to know before it wakes someone up?**
+
+## Selected work
+
+### MCP Ops Assistant
+
+An incident-response assistant built around that question. Monitoring picks up an alert, a triage agent gathers context through MCP tools, and a notification carries the findings forward. LangGraph coordinates the handoffs.
+
+<img src="./assets/incident-flow.svg" width="100%" alt="Monitor sends an alert to the triage agent. The agent uses MCP tools and sends findings to notification.">
+
+**Built with** · Python · FastAPI · LangGraph · Model Context Protocol
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**Agentic AI**
+### HealOps AI
 
-I build Python workflows that let agents call tools and pass work between them.
+How much of an infrastructure investigation can an agent help with? I’m exploring incident analysis and the operational tasks that follow it.
 
-<code>LangGraph</code> <code>MCP</code> <code>FastAPI</code>
+**Focus** · Cloud operations and automation
 
 </td>
 <td width="50%" valign="top">
 
-**Cloud infrastructure**
+### AI Interview Coach
 
-I work with containerized services and explore how they communicate and recover from failures.
+A full-stack practice space for developers preparing for technical interviews. It brings AI-assisted practice into the preparation process.
 
-<code>Go</code> <code>Docker</code> <code>Kubernetes</code>
+**Focus** · Python and applied AI
 
 </td>
 </tr>
 </table>
 
-## On my workbench
+## Toolkit
 
-**MCP Ops Assistant** · My incident-response project connects monitoring, triage, and notification through a LangGraph workflow. I use MCP to give the agents access to operational tools.
+| Area | Technologies |
+| :--- | :--- |
+| Languages | Python, Go, TypeScript, JavaScript, SQL |
+| AI & machine learning | LangGraph, LangChain, OpenAI, machine learning, deep learning |
+| Backend & frontend | FastAPI, Node.js, Express, React, Next.js |
+| Cloud & delivery | Docker, Kubernetes, Linux, GitHub Actions |
+| Data & tools | PostgreSQL, MongoDB, Redis, Git, GitHub |
 
-**AI Interview Coach** · A practice space for developers preparing for technical interviews, built with Python and a web interface.
+## Engineering notes
+
+The part I enjoy most is finding where a design meets reality. In an agent workflow, that can be one small handoff: what did the monitoring agent see, what context is missing, and what should the next agent receive? Making that handoff clear is often where the system starts to make sense.
+
+[Explore my repositories](https://github.com/MohammedMaaz06?tab=repositories) · [View my GitHub activity](https://github.com/MohammedMaaz06#year-list-container) · [Connect on LinkedIn](https://www.linkedin.com/in/mohammed-maaz-6129b2219)
